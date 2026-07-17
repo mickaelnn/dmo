@@ -7,7 +7,7 @@ const props = defineProps({
 
 // Destaca a palavra "Chaveiro(s)" com a cor de destaque, como no site original.
 const titleHtml = computed(() => {
-  const t = props.config.title || 'Guia de Chaveiros'
+  const t = props.config.title || 'Guia de Progesso'
   return t.replace(/(Chaveiros?)/i, '<span>$1</span>')
 })
 </script>

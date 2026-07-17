@@ -1,4 +1,4 @@
-# Guia de Chaveiros — DMO
+# Guia de Progresso — DMO
 
 App em **Vue 3 + Vite** para visualizar os Digimon do *Digimon Masters Online*, agrupados por
 família e rank, com um inventário pessoal (chaveiros +10, digivices e digimons que você possui)
