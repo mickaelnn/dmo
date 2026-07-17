@@ -12,7 +12,7 @@ import SearchBox from './components/SearchBox.vue'
 import ProgressBar from './components/ProgressBar.vue'
 import OwnedDigimons from './components/OwnedDigimons.vue'
 import CoveragePanel from './components/CoveragePanel.vue'
-import FamilySection from './components/FamilySection.vue'
+import DigimonCard from './components/DigimonCard.vue'
 import PortfolioFooter from './components/PortfolioFooter.vue'
 import DataLoader from './components/DataLoader.vue'
 import ConfirmModal from './components/ConfirmModal.vue'
@@ -46,51 +46,26 @@ const ownedDigimons = computed(() =>
 )
 
 /**
- * Monta as seções por família, cada uma com seus grupos de rank,
- * já respeitando o filtro atual. Reproduz a lógica do site original.
+ * Agrupa os digimons apenas por rank (sem separar por família),
+ * respeitando o filtro atual. Cada digimon aparece uma única vez.
  */
 const sections = computed(() => {
   const digis = digimons.value
-  const famMeta = families.value
   const order = rankOrder.value
 
-  // agrupa: família -> rank -> [nomes]
-  const groups = {}
+  const byRank = {}
   for (const [name, info] of Object.entries(digis)) {
-    for (const fam of (info.families || [])) {
-      const rank = info.rank || 'Sem rank'
-      groups[fam] = groups[fam] || {}
-      groups[fam][rank] = groups[fam][rank] || []
-      groups[fam][rank].push(name)
-    }
+    if (!passFilter(name)) continue
+    const rank = info.rank || 'Sem rank'
+    ;(byRank[rank] = byRank[rank] || []).push(name)
   }
 
-  // ordem das famílias: primeiro as conhecidas (na ordem do meta), depois extras
-  const famOrder = [
-    ...Object.keys(famMeta).filter(f => groups[f]),
-    ...Object.keys(groups).filter(f => !(f in famMeta))
+  const ranks = [
+    ...order.filter(r => byRank[r]),
+    ...Object.keys(byRank).filter(r => !order.includes(r))
   ]
 
-  const result = []
-  for (const fam of famOrder) {
-    const present = Object.keys(groups[fam])
-    const ranks = [
-      ...order.filter(r => present.includes(r)),
-      ...present.filter(r => !order.includes(r))
-    ]
-    const rankGroups = []
-    let count = 0
-    for (const rank of ranks) {
-      const names = groups[fam][rank].filter(passFilter)
-      if (!names.length) continue
-      count += names.length
-      rankGroups.push({ rank, names })
-    }
-    if (rankGroups.length) {
-      result.push({ fam, meta: famMeta[fam] || {}, rankGroups, count })
-    }
-  }
-  return result
+  return ranks.map(rank => ({ rank, names: byRank[rank] }))
 })
 
 async function handleFile(file) {
@@ -119,17 +94,22 @@ onMounted(load)
           <SearchBox v-model="query" />
         </div>
         <main>
-          <FamilySection
-            v-for="s in sections"
-            :key="s.fam"
-            :fam="s.fam"
-            :meta="s.meta"
-            :rank-groups="s.rankGroups"
-            :count="s.count"
-            :digimons="digimons"
-            :attributes="attributes"
-            :elements="elements"
-          />
+          <section v-for="s in sections" :key="s.rank">
+            <div class="rank-head">
+              RANK <b>{{ s.rank }}</b>
+              <span class="rank-count">{{ s.names.length }}</span>
+            </div>
+            <div class="grid">
+              <DigimonCard
+                v-for="name in s.names"
+                :key="name"
+                :name="name"
+                :info="digimons[name]"
+                :attributes="attributes"
+                :elements="elements"
+              />
+            </div>
+          </section>
           <p v-if="!sections.length" class="nothing">
             {{ query.trim() ? `Nenhum digimon encontrado para "${query.trim()}".` : 'Nada para mostrar com esse filtro.' }}
           </p>
@@ -180,6 +160,25 @@ onMounted(load)
   margin-top: 8px;
 }
 .toolbar :deep(.filters) { margin-top: 16px; }
+main section { margin-top: 32px; }
+.rank-head {
+  display: flex; align-items: center; gap: 12px;
+  font-family: 'Rajdhani', sans-serif; font-weight: 700;
+  font-size: clamp(20px, 4vw, 26px); letter-spacing: 3px;
+  color: var(--muted); border-bottom: 2px solid var(--line);
+  padding-bottom: 10px; margin-bottom: 16px;
+}
+.rank-head b { color: var(--accent); }
+.rank-count {
+  margin-left: auto; font-family: 'Chakra Petch', sans-serif;
+  font-size: 12px; font-weight: 600; letter-spacing: 2px;
+  color: var(--muted); text-transform: uppercase;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+}
 .nothing { color: var(--muted); margin-top: 32px; }
 .loading { color: var(--muted); margin-top: 32px; }
 </style>
