@@ -51,9 +51,26 @@ export function useInventory() {
   function hasDigivice(attr, elem) { return inv.digivices.includes(`${attr}|${elem}`) }
   function ownsDigimon(name) { return inv.digimons.includes(name) }
 
+  // cópia dos dados atuais (para exportar backup)
+  function snapshot() {
+    return {
+      keyrings: [...inv.keyrings],
+      digivices: [...inv.digivices],
+      digimons: [...inv.digimons]
+    }
+  }
+
+  // substitui todo o inventário (para importar backup)
+  function replaceAll(data) {
+    inv.keyrings = Array.isArray(data?.keyrings) ? data.keyrings : []
+    inv.digivices = Array.isArray(data?.digivices) ? data.digivices : []
+    inv.digimons = Array.isArray(data?.digimons) ? data.digimons : []
+  }
+
   return {
     inv,
     toggleKeyring, addDigivice, removeDigivice, toggleDigimon,
-    hasKeyring, hasDigivice, ownsDigimon
+    hasKeyring, hasDigivice, ownsDigimon,
+    snapshot, replaceAll
   }
 }

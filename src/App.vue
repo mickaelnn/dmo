@@ -13,6 +13,7 @@ import ProgressBar from './components/ProgressBar.vue'
 import OwnedDigimons from './components/OwnedDigimons.vue'
 import CoveragePanel from './components/CoveragePanel.vue'
 import DigimonCard from './components/DigimonCard.vue'
+import BackupControls from './components/BackupControls.vue'
 import PortfolioFooter from './components/PortfolioFooter.vue'
 import DataLoader from './components/DataLoader.vue'
 import ConfirmModal from './components/ConfirmModal.vue'
@@ -140,6 +141,7 @@ onMounted(load)
           :available-attributes="availableAttributes"
           :available-elements="availableElements"
         />
+        <BackupControls />
       </div>
 
       <PortfolioFooter />
