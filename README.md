@@ -50,6 +50,20 @@ src/
     DataLoader.vue         carregamento manual do JSON (fallback file://)
 ```
 
+## Analytics de tráfego (Cloudflare Web Analytics)
+
+O `index.html` já vem com o script do **Cloudflare Web Analytics** (grátis, sem cookies,
+sem banner de consentimento). Falta só colar o seu token:
+
+1. Crie uma conta grátis em [cloudflare.com](https://www.cloudflare.com/).
+2. No painel, vá em **Analytics & Logs → Web Analytics → Add a site**.
+3. Informe o endereço do site: `mickaelnn.github.io/dmo`.
+4. A Cloudflare gera um snippet com um `token`. Copie **apenas o valor do token**.
+5. No `index.html`, troque `COLE_SEU_TOKEN_AQUI` pelo token copiado.
+6. Faça commit e push. Em alguns minutos os dados de visita começam a aparecer no painel da Cloudflare.
+
+Enquanto o token não for preenchido, o script simplesmente não coleta nada (não quebra o site).
+
 ## Editando os dados
 
 Edite **`public/data.json`**. Cada Digimon declara `image`, `attribute`, `element`, `rank`
