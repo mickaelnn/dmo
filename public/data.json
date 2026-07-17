@@ -1,0 +1,507 @@
+{
+  "config": {
+    "title": "Guia de Chaveiros",
+    "subtitle": "Digimon Masters Online",
+    "note": "Cada digimon declara suas famílias e rank — os chaveiros são montados automaticamente."
+  },
+  "rankOrder": [
+    "U",
+    "SSS+"
+  ],
+  "attributes": {
+    "No": {
+      "label": "None",
+      "color": "#5b647f",
+      "image": "assets/attr/none.png"
+    },
+    "Vi": {
+      "label": "Virus",
+      "color": "#c05bff",
+      "image": "assets/attr/virus.png"
+    },
+    "Va": {
+      "label": "Vaccine",
+      "color": "#3ed17c",
+      "image": "assets/attr/vaccine.png"
+    },
+    "Da": {
+      "label": "Data",
+      "color": "#3fa9ff",
+      "image": "assets/attr/data.png"
+    },
+    "Un": {
+      "label": "Unknown",
+      "color": "#e05bff",
+      "image": "assets/attr/unknown.png"
+    }
+  },
+  "elements": {
+    "Land": {
+      "label": "Land",
+      "color": "#b98d5a",
+      "image": "assets/element/land.png"
+    },
+    "Fire": {
+      "label": "Fire",
+      "color": "#ff6a3d",
+      "image": "assets/element/fire.png"
+    },
+    "Ice": {
+      "label": "Ice",
+      "color": "#7fd4ff",
+      "image": "assets/element/ice.png"
+    },
+    "Light": {
+      "label": "Light",
+      "color": "#ffd76a",
+      "image": "assets/element/light.png"
+    },
+    "Steel": {
+      "label": "Steel",
+      "color": "#9aa6b8",
+      "image": "assets/element/steel.png"
+    },
+    "Neutral": {
+      "label": "Neutral",
+      "color": "#6c5ce7",
+      "image": "assets/element/neutral.png"
+    },
+    "PitchBlack": {
+      "label": "Pitch Black",
+      "color": "#7a3fb0",
+      "image": "assets/element/pitch-black.png"
+    },
+    "Thunder": {
+      "label": "Thunder",
+      "color": "#f2c94c",
+      "image": "assets/element/thunder.png"
+    },
+    "Water": {
+      "label": "Water",
+      "color": "#3d8bff",
+      "image": "assets/element/water.png"
+    },
+    "Wind": {
+      "label": "Wind",
+      "color": "#8fe0d0",
+      "image": "assets/element/wind.png"
+    },
+    "Wood": {
+      "label": "Wood",
+      "color": "#8bbf5a",
+      "image": "assets/element/wood.png"
+    }
+  },
+  "families": {
+    "VB": {
+      "label": "Virus Busters",
+      "image": "assets/family/vb.png"
+    },
+    "UK": {
+      "label": "Unknown",
+      "image": "assets/family/uk.png"
+    },
+    "DA": {
+      "label": "Dark Area",
+      "image": "assets/family/da.png"
+    },
+    "DS": {
+      "label": "Deeo Savers",
+      "image": "assets/family/ds.png"
+    },
+    "DR": {
+      "label": "Dragon's Roar",
+      "image": "assets/family/dr.png"
+    },
+    "JT": {
+      "label": "Jungle Troopers",
+      "image": "assets/family/jt.png"
+    },
+    "ME": {
+      "label": "Metal Empire",
+      "image": "assets/family/me.png"
+    },
+    "NSP": {
+      "label": "Nature Spirits",
+      "image": "assets/family/nsp.png"
+    },
+    "NSO": {
+      "label": "Nightmare Soldiers",
+      "image": "assets/family/nso.png"
+    },
+    "TBD": {
+      "label": "TBD",
+      "image": "assets/family/tbd.png"
+    },
+    "WG": {
+      "label": "Wind Guardians",
+      "image": "assets/family/wg.png"
+    }
+  },
+  "digimons": {
+    "Alphamon Ouryuken (Extreme)": {
+      "image": "assets/digimon/alphamon-ouryuken.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "U",
+      "families": [
+        "VB"
+      ]
+    },
+    "Alphamon Ouryuken (Awaken)": {
+      "image": "assets/digimon/alphamon-ouryuken.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "SSS+",
+      "families": [
+        "VB"
+      ]
+    },
+    "Gallantmon (Crimson Mode) (Awaken)": {
+      "image": "assets/digimon/gallantmon-crimson.png",
+      "attribute": "Vi",
+      "element": "Light",
+      "rank": "U",
+      "families": [
+        "VB",
+        "ME",
+        "WG"
+      ]
+    },
+    "Goddramon": {
+      "image": "assets/digimon/goddramon.png",
+      "attribute": "Va",
+      "element": "Fire",
+      "rank": "U",
+      "families": [
+        "VB",
+        "DR",
+        "WG"
+      ]
+    },
+    "Imperialdramon Paladin Mode (Awaken)": {
+      "image": "assets/digimon/imperialdramon-paladin.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "U",
+      "families": [
+        "VB",
+        "DS",
+        "WG"
+      ]
+    },
+    "Susanoomon (Extreme)": {
+      "image": "assets/digimon/susanoomon.png",
+      "attribute": "Va",
+      "element": "Thunder",
+      "rank": "U",
+      "families": [
+        "VB",
+        "NSP",
+        "DS"
+      ]
+    },
+    "Susanoomon (Awaken)": {
+      "image": "assets/digimon/susanoomon.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "SSS+",
+      "families": [
+        "VB",
+        "NSO"
+      ]
+    },
+    "Shoutmon X7 Superior Mode": {
+      "image": "assets/digimon/shoutmon-x7-superior.png",
+      "attribute": "Da",
+      "element": "Steel",
+      "rank": "U",
+      "families": [
+        "VB"
+      ]
+    },
+    "Omegamon - Merciful Mode": {
+      "image": "assets/digimon/omegamon-merciful.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "U",
+      "families": [
+        "VB",
+        "ME",
+        "WG"
+      ]
+    },
+    "Lucemon: Satan Mode (Extreme)": {
+      "image": "assets/digimon/lucemon-satan.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "U",
+      "families": [
+        "VB",
+        "NSO",
+        "DA"
+      ]
+    },
+    "Lucemon: Satan Mode (Awaken)": {
+      "image": "assets/digimon/lucemon-satan.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "SSS+",
+      "families": [
+        "VB",
+        "NSO",
+        "DA"
+      ]
+    },
+    "Last Evolution: Kizuna": {
+      "image": "assets/digimon/last-evolution-kizuna.png",
+      "attribute": "Un",
+      "element": "Light",
+      "rank": "U",
+      "families": [
+        "VB",
+        "UK",
+        "TBD"
+      ]
+    },
+    "Kuzuhamon - Miko Mode": {
+      "image": "assets/digimon/kuzuhamon-miko.png",
+      "attribute": "Da",
+      "element": "PitchBlack",
+      "rank": "U",
+      "families": [
+        "TBD",
+        "NSO",
+        "UK"
+      ]
+    },
+    "MetalGarurumon (Awaken)": {
+      "image": "assets/digimon/metalgarurumon.png",
+      "attribute": "Da",
+      "element": "Ice",
+      "rank": "SSS+",
+      "families": [
+        "VB",
+        "ME",
+        "WG"
+      ]
+    },
+    "Gabumon - Bond of Friendship": {
+      "image": "assets/digimon/gabumon-bond.png",
+      "attribute": "Va",
+      "element": "Steel",
+      "rank": "SSS+",
+      "families": [
+        "VB",
+        "ME"
+      ]
+    },
+    "Agumon - Bond of Bravery": {
+      "image": "assets/digimon/agumon-bond.png",
+      "attribute": "Va",
+      "element": "Fire",
+      "rank": "SSS+",
+      "families": [
+        "VB",
+        "NSP"
+      ]
+    },
+    "Omegamon X": {
+      "image": "assets/digimon/omegamon-x.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "SSS+",
+      "families": [
+        "VB",
+        "ME",
+        "WG"
+      ]
+    },
+    "Omegamon X (Extreme)": {
+      "image": "assets/digimon/omegamon-x.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "U",
+      "families": [
+        "VB",
+        "ME",
+        "NSP"
+      ]
+    },
+    "Bloomlordmon": {
+      "image": "assets/digimon/bloomlordmon.png",
+      "attribute": "Va",
+      "element": "Wood",
+      "rank": "U",
+      "families": [
+        "UK",
+        "TBD"
+      ]
+    },
+    "Eosmon LV6": {
+      "image": "assets/digimon/eosmon-lv6.png",
+      "attribute": "Un",
+      "element": "Thunder",
+      "rank": "U",
+      "families": [
+        "UK",
+        "TBD"
+      ]
+    },
+    "Abbadomon": {
+      "image": "assets/digimon/abbadomon.png",
+      "attribute": "Un",
+      "element": "PitchBlack",
+      "rank": "U",
+      "families": [
+        "UK",
+        "TBD"
+      ]
+    },
+    "Abbadomon Core": {
+      "image": "assets/digimon/abbadomon-core.png",
+      "attribute": "Un",
+      "element": "PitchBlack",
+      "rank": "U",
+      "families": [
+        "UK",
+        "TBD"
+      ]
+    },
+    "Imperialdramon (Fighter Mode) (Awaken)": {
+      "image": "assets/digimon/imperialdramon-fighter.png",
+      "attribute": "Va",
+      "element": "Light",
+      "rank": "SSS+",
+      "families": [
+        "ME",
+        "DR",
+        "WG"
+      ]
+    },
+    "DoneDevimon": {
+      "image": "assets/digimon/donedevimon.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "U",
+      "families": [
+        "NSO"
+      ]
+    },
+    "Lilithmon (X-Antibody) (Awaken)": {
+      "image": "assets/digimon/lilithmon-x.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "U",
+      "families": [
+        "NSO",
+        "DA"
+      ]
+    },
+    "Holydramon (Awaken)": {
+      "image": "assets/digimon/holydramon.png",
+      "attribute": "Va",
+      "element": "Wind",
+      "rank": "U",
+      "families": [
+        "NSP",
+        "WG",
+        "DR"
+      ]
+    },
+    "Shoutmon X7": {
+      "image": "assets/digimon/shoutmon-x7.png",
+      "attribute": "Da",
+      "element": "Fire",
+      "rank": "SSS+",
+      "families": [
+        "NSP"
+      ]
+    },
+    "ZeedMillenniummon (Awaken)": {
+      "image": "assets/digimon/zeedmillenniummon.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "U",
+      "families": [
+        "DA"
+      ]
+    },
+    "ZeedMillenniummon": {
+      "image": "assets/digimon/zeedmillenniummon.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "SSS+",
+      "families": [
+        "DA"
+      ]
+    },
+    "Omegamon Zwart D": {
+      "image": "assets/digimon/omegamon-zwart-d.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "SSS+",
+      "families": [
+        "DA"
+      ]
+    },
+    "DarknessBagramon": {
+      "image": "assets/digimon/darknessbagramon.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "SSS+",
+      "families": [
+        "NSO"
+      ]
+    },
+    "Xros Up Mervamon": {
+      "image": "assets/digimon/xros-up-mervamon.png",
+      "attribute": "Vi",
+      "element": "Steel",
+      "rank": "SSS+",
+      "families": [
+        "UK",
+        "TBD"
+      ]
+    },
+    "Ordinemon (Awaken)": {
+      "image": "assets/digimon/ordinemon.png",
+      "attribute": "Un",
+      "element": "PitchBlack",
+      "rank": "SSS+",
+      "families": [
+        "UK",
+        "TBD"
+      ]
+    },
+    "Omegamon Alter-B": {
+      "image": "assets/digimon/omegamon-alter-b.png",
+      "attribute": "Vi",
+      "element": "PitchBlack",
+      "rank": "SSS+",
+      "families": [
+        "VB"
+      ]
+    },
+    "WarGreymon (Awaken)": {
+      "image": "assets/digimon/wargreymon.png",
+      "attribute": "Va",
+      "element": "Fire",
+      "rank": "SSS+",
+      "families": [
+        "VB",
+        "DR",
+        "NSP"
+      ]
+    },
+    "Examon X": {
+      "image": "assets/digimon/examon-x.png",
+      "attribute": "Da",
+      "element": "Light",
+      "rank": "SSS+",
+      "families": [
+        "DR"
+      ]
+    }
+  }
+}
