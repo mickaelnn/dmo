@@ -6,6 +6,8 @@ salvo no navegador.
 
 Projeto de portfólio de **Mickael**.
 
+Atualmente jogando Ladmo - Alphamon. nick: **Beatriz**
+
 ## Rodando localmente
 
 ```bash
