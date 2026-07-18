@@ -7,10 +7,12 @@ function loadInv() {
   try {
     o = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}
   } catch (e) { /* ignora storage corrompido */ }
+  const seals = (o.seals && typeof o.seals === 'object' && !Array.isArray(o.seals)) ? o.seals : {}
   return {
     keyrings: Array.isArray(o.keyrings) ? o.keyrings : [],
     digivices: Array.isArray(o.digivices) ? o.digivices : [],
-    digimons: Array.isArray(o.digimons) ? o.digimons : []
+    digimons: Array.isArray(o.digimons) ? o.digimons : [],
+    seals // mapa sealId -> nível atual (0..6)
   }
 }
 
@@ -51,12 +53,20 @@ export function useInventory() {
   function hasDigivice(attr, elem) { return inv.digivices.includes(`${attr}|${elem}`) }
   function ownsDigimon(name) { return inv.digimons.includes(name) }
 
+  // ---- Selos (nível por selo: 0=Fechado .. 6=Mestre) ----
+  function getSealTier(sealId) { return inv.seals[sealId] || 0 }
+  function setSealTier(sealId, tier) {
+    if (tier > 0) inv.seals[sealId] = tier
+    else delete inv.seals[sealId] // 0 = não guarda (mantém o mapa enxuto)
+  }
+
   // cópia dos dados atuais (para exportar backup)
   function snapshot() {
     return {
       keyrings: [...inv.keyrings],
       digivices: [...inv.digivices],
-      digimons: [...inv.digimons]
+      digimons: [...inv.digimons],
+      seals: { ...inv.seals }
     }
   }
 
@@ -65,12 +75,14 @@ export function useInventory() {
     inv.keyrings = Array.isArray(data?.keyrings) ? data.keyrings : []
     inv.digivices = Array.isArray(data?.digivices) ? data.digivices : []
     inv.digimons = Array.isArray(data?.digimons) ? data.digimons : []
+    inv.seals = (data?.seals && typeof data.seals === 'object' && !Array.isArray(data.seals)) ? data.seals : {}
   }
 
   return {
     inv,
     toggleKeyring, addDigivice, removeDigivice, toggleDigimon,
     hasKeyring, hasDigivice, ownsDigimon,
+    getSealTier, setSealTier,
     snapshot, replaceAll
   }
 }

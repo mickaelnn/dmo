@@ -13,6 +13,7 @@ import ProgressBar from './components/ProgressBar.vue'
 import OwnedDigimons from './components/OwnedDigimons.vue'
 import CoveragePanel from './components/CoveragePanel.vue'
 import DigimonCard from './components/DigimonCard.vue'
+import SealMasterPanel from './components/SealMasterPanel.vue'
 import BackupControls from './components/BackupControls.vue'
 import PortfolioFooter from './components/PortfolioFooter.vue'
 import DataLoader from './components/DataLoader.vue'
@@ -142,6 +143,11 @@ onMounted(load)
           :available-elements="availableElements"
         />
         <BackupControls />
+      </div>
+
+      <!-- ABA: SELOS -->
+      <div v-show="view === 'selos'" class="tabview">
+        <SealMasterPanel />
       </div>
 
       <PortfolioFooter />

@@ -1,0 +1,7819 @@
+{
+  "tiers": [
+    "Fechado",
+    "Normal",
+    "Bronze",
+    "Prata",
+    "Ouro",
+    "Platina",
+    "Mestre"
+  ],
+  "maxDefault": 3000,
+  "stats": {
+    "AT": {
+      "label": "AT",
+      "name": "Dano de Ataque",
+      "unit": "",
+      "color": "#ff6a3d"
+    },
+    "CT": {
+      "label": "CT",
+      "name": "Crítico",
+      "unit": "%",
+      "color": "#f2c94c"
+    },
+    "HT": {
+      "label": "HT",
+      "name": "Acerto",
+      "unit": "",
+      "color": "#8fe0d0"
+    },
+    "HP": {
+      "label": "HP",
+      "name": "HP",
+      "unit": "",
+      "color": "#3ed17c"
+    },
+    "DS": {
+      "label": "DS",
+      "name": "Digi-Alma",
+      "unit": "",
+      "color": "#6c5ce7"
+    },
+    "DE": {
+      "label": "DE",
+      "name": "Defesa",
+      "unit": "",
+      "color": "#3fa9ff"
+    },
+    "BL": {
+      "label": "BL",
+      "name": "Bloqueio",
+      "unit": "%",
+      "color": "#9aa6b8"
+    },
+    "EV": {
+      "label": "EV",
+      "name": "Evasão",
+      "unit": "%",
+      "color": "#7fd4ff"
+    }
+  },
+  "seals": [
+    {
+      "stat": "AT",
+      "name": "Guilmon",
+      "slug": "guilmon",
+      "image": "assets/seal/guilmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Devimon",
+      "slug": "devimon",
+      "image": "assets/seal/devimon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Patamon",
+      "slug": "patamon",
+      "image": "assets/seal/patamon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Giromon",
+      "slug": "giromon",
+      "image": "assets/seal/giromon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Qinglongmon",
+      "slug": "qinglongmon",
+      "image": "assets/seal/qinglongmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Examon",
+      "slug": "examon",
+      "image": "assets/seal/examon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Tanemon",
+      "slug": "tanemon",
+      "image": "assets/seal/tanemon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Mushroomon",
+      "slug": "mushroomon",
+      "image": "assets/seal/mushroomon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Chrysalimon",
+      "slug": "chrysalimon",
+      "image": "assets/seal/chrysalimon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Garurumon (Black)",
+      "slug": "garurumon-black",
+      "image": "assets/seal/garurumon-black.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Cherrymon",
+      "slug": "cherrymon",
+      "image": "assets/seal/cherrymon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Marin Devimon",
+      "slug": "marin-devimon",
+      "image": "assets/seal/marin-devimon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Dexmon",
+      "slug": "dexmon",
+      "image": "assets/seal/dexmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Omegamon",
+      "slug": "omegamon",
+      "image": "assets/seal/omegamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Myotismon",
+      "slug": "myotismon",
+      "image": "assets/seal/myotismon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Venom Vamdemon",
+      "slug": "venom-vamdemon",
+      "image": "assets/seal/venom-vamdemon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Culumon",
+      "slug": "culumon",
+      "image": "assets/seal/culumon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Orochimon",
+      "slug": "orochimon",
+      "image": "assets/seal/orochimon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Monodramon",
+      "slug": "monodramon",
+      "image": "assets/seal/monodramon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Megidramon",
+      "slug": "megidramon",
+      "image": "assets/seal/megidramon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "2 ano",
+      "slug": "2-ano",
+      "image": "assets/seal/2-ano.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "MugenDramon",
+      "slug": "mugendramon",
+      "image": "assets/seal/mugendramon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Chaosmon",
+      "slug": "chaosmon",
+      "image": "assets/seal/chaosmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "MirageGaogamon no Modo Burst",
+      "slug": "miragegaogamon-no-modo-burst",
+      "image": "assets/seal/miragegaogamon-no-modo-burst.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo Apaixonado",
+      "slug": "selo-apaixonado",
+      "image": "assets/seal/selo-apaixonado.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "BoltBoutamon",
+      "slug": "boltboutamon",
+      "image": "assets/seal/boltboutamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo de aniversário",
+      "slug": "selo-de-aniversario",
+      "image": "assets/seal/selo-de-aniversario.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Greymon",
+      "slug": "greymon",
+      "image": "assets/seal/greymon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Alphamon",
+      "slug": "alphamon",
+      "image": "assets/seal/alphamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "ExV-mon",
+      "slug": "exv-mon",
+      "image": "assets/seal/exv-mon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "ImperialDramon",
+      "slug": "imperialdramon",
+      "image": "assets/seal/imperialdramon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo de Proteção Ambiental",
+      "slug": "selo-de-protecao-ambiental",
+      "image": "assets/seal/selo-de-protecao-ambiental.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Kuzuhamon",
+      "slug": "kuzuhamon",
+      "image": "assets/seal/kuzuhamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Silphymon",
+      "slug": "silphymon",
+      "image": "assets/seal/silphymon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "PicoDevimon",
+      "slug": "picodevimon",
+      "image": "assets/seal/picodevimon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo do 1º Aniversário",
+      "slug": "selo-do-1-aniversario",
+      "image": "assets/seal/selo-do-1-aniversario.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "ImperialDramon Modo de Fighter",
+      "slug": "imperialdramon-modo-de-fighter",
+      "image": "assets/seal/imperialdramon-modo-de-fighter.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Omegamon X",
+      "slug": "omegamon-x",
+      "image": "assets/seal/omegamon-x.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo novo semestre",
+      "slug": "selo-novo-semestre",
+      "image": "assets/seal/selo-novo-semestre.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Hawkmon",
+      "slug": "hawkmon",
+      "image": "assets/seal/hawkmon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Aquilamon",
+      "slug": "aquilamon",
+      "image": "assets/seal/aquilamon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Turuiemon",
+      "slug": "turuiemon",
+      "image": "assets/seal/turuiemon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Shurimon",
+      "slug": "shurimon",
+      "image": "assets/seal/shurimon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Piccolomon",
+      "slug": "piccolomon",
+      "image": "assets/seal/piccolomon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Cres Garurumon",
+      "slug": "cres-garurumon",
+      "image": "assets/seal/cres-garurumon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Gankoomon",
+      "slug": "gankoomon",
+      "image": "assets/seal/gankoomon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo 12 anos KDMO",
+      "slug": "selo-12-anos-kdmo",
+      "image": "assets/seal/selo-12-anos-kdmo.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo 13 anos KDMO",
+      "slug": "selo-13-anos-kdmo",
+      "image": "assets/seal/selo-13-anos-kdmo.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo de Inverno",
+      "slug": "selo-de-inverno",
+      "image": "assets/seal/selo-de-inverno.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Vegiemon",
+      "slug": "vegiemon",
+      "image": "assets/seal/vegiemon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "MetalGreymon (Black)",
+      "slug": "metalgreymon-black",
+      "image": "assets/seal/metalgreymon-black.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "New LADMO AT",
+      "slug": "new-ladmo-at",
+      "image": "assets/seal/new-ladmo-at.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "BetelGammamon",
+      "slug": "betelgammamon",
+      "image": "assets/seal/betelgammamon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Siriusmon",
+      "slug": "siriusmon",
+      "image": "assets/seal/siriusmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo de TGT",
+      "slug": "selo-de-tgt",
+      "image": "assets/seal/selo-de-tgt.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo Ano de Cobra azul",
+      "slug": "selo-ano-de-cobra-azul",
+      "image": "assets/seal/selo-ano-de-cobra-azul.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Dungeon Masters AT",
+      "slug": "dungeon-masters-at",
+      "image": "assets/seal/dungeon-masters-at.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo AT - Dungeon Masters",
+      "slug": "selo-at-dungeon-masters",
+      "image": "assets/seal/selo-at-dungeon-masters.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo AT - Passe de Temporada",
+      "slug": "selo-at-passe-de-temporada",
+      "image": "assets/seal/selo-at-passe-de-temporada.png",
+      "levels": [
+        60,
+        120,
+        240,
+        360,
+        480,
+        600
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "TK",
+      "slug": "tk",
+      "image": "assets/seal/tk.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "[Despertado] Imperialdramon Modo Paladino",
+      "slug": "despertado-imperialdramon-modo-paladino",
+      "image": "assets/seal/despertado-imperialdramon-modo-paladino.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "[Despertado] Ordinemon",
+      "slug": "despertado-ordinemon",
+      "image": "assets/seal/despertado-ordinemon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Nunemon",
+      "slug": "nunemon",
+      "image": "assets/seal/nunemon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo de Inverno [AT]",
+      "slug": "selo-de-inverno-at",
+      "image": "assets/seal/selo-de-inverno-at.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Greymon X",
+      "slug": "greymon-x",
+      "image": "assets/seal/greymon-x.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Wargreymon X",
+      "slug": "wargreymon-x",
+      "image": "assets/seal/wargreymon-x.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "UlforceVeedramon X",
+      "slug": "ulforceveedramon-x",
+      "image": "assets/seal/ulforceveedramon-x.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Gaiomon",
+      "slug": "gaiomon",
+      "image": "assets/seal/gaiomon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "MedievalGallantmon",
+      "slug": "medievalgallantmon",
+      "image": "assets/seal/medievalgallantmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Jesmon X",
+      "slug": "jesmon-x",
+      "image": "assets/seal/jesmon-x.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Gankoomon X",
+      "slug": "gankoomon-x",
+      "image": "assets/seal/gankoomon-x.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Agunimon",
+      "slug": "agunimon",
+      "image": "assets/seal/agunimon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Gigasmon",
+      "slug": "gigasmon",
+      "image": "assets/seal/gigasmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Raguelmon",
+      "slug": "raguelmon",
+      "image": "assets/seal/raguelmon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Última Evolução: Laços",
+      "slug": "ultima-evolucao-lacos",
+      "image": "assets/seal/ultima-evolucao-lacos.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo Chuseok Abundante - AT",
+      "slug": "selo-chuseok-abundante-at",
+      "image": "assets/seal/selo-chuseok-abundante-at.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "16 anos - AT",
+      "slug": "16-anos-at",
+      "image": "assets/seal/16-anos-at.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Exploração AT A",
+      "slug": "exploracao-at-a",
+      "image": "assets/seal/exploracao-at-a.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Exploração AT B",
+      "slug": "exploracao-at-b",
+      "image": "assets/seal/exploracao-at-b.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Exploração AT C",
+      "slug": "exploracao-at-c",
+      "image": "assets/seal/exploracao-at-c.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Dungeon Masters 3 AT",
+      "slug": "dungeon-masters-3-at",
+      "image": "assets/seal/dungeon-masters-3-at.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Garbagemon",
+      "slug": "garbagemon",
+      "image": "assets/seal/garbagemon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Megadramon",
+      "slug": "megadramon",
+      "image": "assets/seal/megadramon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "SkullKnightmon",
+      "slug": "skullknightmon",
+      "image": "assets/seal/skullknightmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Omegamon Alter-B",
+      "slug": "omegamon-alter-b",
+      "image": "assets/seal/omegamon-alter-b.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Selo de Natal AT",
+      "slug": "selo-de-natal-at",
+      "image": "assets/seal/selo-de-natal-at.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Virada da Sorte AT",
+      "slug": "virada-da-sorte-at",
+      "image": "assets/seal/virada-da-sorte-at.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "AT",
+      "name": "Aniversário de 3 Anos - AT",
+      "slug": "aniversario-de-3-anos-at",
+      "image": "assets/seal/aniversario-de-3-anos-at.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Sharmamon",
+      "slug": "sharmamon",
+      "image": "assets/seal/sharmamon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Koromon",
+      "slug": "koromon",
+      "image": "assets/seal/koromon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Kunemon",
+      "slug": "kunemon",
+      "image": "assets/seal/kunemon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Kyubimon",
+      "slug": "kyubimon",
+      "image": "assets/seal/kyubimon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Togemon",
+      "slug": "togemon",
+      "image": "assets/seal/togemon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Volcamon",
+      "slug": "volcamon",
+      "image": "assets/seal/volcamon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Nanomon",
+      "slug": "nanomon",
+      "image": "assets/seal/nanomon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "SaberLeomon",
+      "slug": "saberleomon",
+      "image": "assets/seal/saberleomon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "ChaosPiedmon",
+      "slug": "chaospiedmon",
+      "image": "assets/seal/chaospiedmon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Tylomon",
+      "slug": "tylomon",
+      "image": "assets/seal/tylomon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Vajramon",
+      "slug": "vajramon",
+      "image": "assets/seal/vajramon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Prince Mamemon",
+      "slug": "prince-mamemon",
+      "image": "assets/seal/prince-mamemon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "CommanDramon",
+      "slug": "commandramon",
+      "image": "assets/seal/commandramon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "MetalGarurumon",
+      "slug": "metalgarurumon",
+      "image": "assets/seal/metalgarurumon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Omegamon Zwart",
+      "slug": "omegamon-zwart",
+      "image": "assets/seal/omegamon-zwart.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "RizeGreymon",
+      "slug": "rizegreymon",
+      "image": "assets/seal/rizegreymon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Gaogamon",
+      "slug": "gaogamon",
+      "image": "assets/seal/gaogamon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Lalamon",
+      "slug": "lalamon",
+      "image": "assets/seal/lalamon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Ravemon Modo Burst",
+      "slug": "ravemon-modo-burst",
+      "image": "assets/seal/ravemon-modo-burst.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Phantomon",
+      "slug": "phantomon",
+      "image": "assets/seal/phantomon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Jesmon",
+      "slug": "jesmon",
+      "image": "assets/seal/jesmon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "MagnaAngemon",
+      "slug": "magnaangemon",
+      "image": "assets/seal/magnaangemon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Selo de Satisfação",
+      "slug": "selo-de-satisfacao",
+      "image": "assets/seal/selo-de-satisfacao.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "PawnChessmon B",
+      "slug": "pawnchessmon-b",
+      "image": "assets/seal/pawnchessmon-b.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "ShadowSeraphimon",
+      "slug": "shadowseraphimon",
+      "image": "assets/seal/shadowseraphimon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Selo de Esperança",
+      "slug": "selo-de-esperanca",
+      "image": "assets/seal/selo-de-esperanca.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Shoutmon X2",
+      "slug": "shoutmon-x2",
+      "image": "assets/seal/shoutmon-x2.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Lucemon",
+      "slug": "lucemon",
+      "image": "assets/seal/lucemon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Alphamon X",
+      "slug": "alphamon-x",
+      "image": "assets/seal/alphamon-x.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Alphamon Ouryuken X",
+      "slug": "alphamon-ouryuken-x",
+      "image": "assets/seal/alphamon-ouryuken-x.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "2023 Finale",
+      "slug": "2023-finale",
+      "image": "assets/seal/2023-finale.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Kiwimon",
+      "slug": "kiwimon",
+      "image": "assets/seal/kiwimon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Mamemon",
+      "slug": "mamemon",
+      "image": "assets/seal/mamemon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Big Mamemon",
+      "slug": "big-mamemon",
+      "image": "assets/seal/big-mamemon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "AncientTroiamon",
+      "slug": "ancienttroiamon",
+      "image": "assets/seal/ancienttroiamon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "ShoutmonX7",
+      "slug": "shoutmonx7",
+      "image": "assets/seal/shoutmonx7.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Omegamon Merciful Mode",
+      "slug": "omegamon-merciful-mode",
+      "image": "assets/seal/omegamon-merciful-mode.png",
+      "levels": [
+        0.5,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Selo 14 anos KDMO",
+      "slug": "selo-14-anos-kdmo",
+      "image": "assets/seal/selo-14-anos-kdmo.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Deltamon",
+      "slug": "deltamon",
+      "image": "assets/seal/deltamon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "New LADMO CT",
+      "slug": "new-ladmo-ct",
+      "image": "assets/seal/new-ladmo-ct.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "KausGammamon",
+      "slug": "kausgammamon",
+      "image": "assets/seal/kausgammamon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Kuzuhamon Miko Mode",
+      "slug": "kuzuhamon-miko-mode",
+      "image": "assets/seal/kuzuhamon-miko-mode.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Último Selo de 2024",
+      "slug": "ultimo-selo-de-2024",
+      "image": "assets/seal/ultimo-selo-de-2024.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Dungeon Masters CT",
+      "slug": "dungeon-masters-ct",
+      "image": "assets/seal/dungeon-masters-ct.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Selo CT - Dungeon Masters",
+      "slug": "selo-ct-dungeon-masters",
+      "image": "assets/seal/selo-ct-dungeon-masters.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Selo CT - Passe de Temporada",
+      "slug": "selo-ct-passe-de-temporada",
+      "image": "assets/seal/selo-ct-passe-de-temporada.png",
+      "levels": [
+        1,
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Hikari",
+      "slug": "hikari",
+      "image": "assets/seal/hikari.png",
+      "levels": [
+        0.5,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Eosmon",
+      "slug": "eosmon",
+      "image": "assets/seal/eosmon.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "DarknessBagramon",
+      "slug": "darknessbagramon",
+      "image": "assets/seal/darknessbagramon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Greymon (C)",
+      "slug": "greymon-c",
+      "image": "assets/seal/greymon-c.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Selo de Inverno [CT]",
+      "slug": "selo-de-inverno-ct",
+      "image": "assets/seal/selo-de-inverno-ct.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Garurumon X",
+      "slug": "garurumon-x",
+      "image": "assets/seal/garurumon-x.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "MetalGarurumon X",
+      "slug": "metalgarurumon-x",
+      "image": "assets/seal/metalgarurumon-x.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Magnamon",
+      "slug": "magnamon",
+      "image": "assets/seal/magnamon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Minervamon X",
+      "slug": "minervamon-x",
+      "image": "assets/seal/minervamon-x.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Craniamon X",
+      "slug": "craniamon-x",
+      "image": "assets/seal/craniamon-x.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Vritramon",
+      "slug": "vritramon",
+      "image": "assets/seal/vritramon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Chakkumon",
+      "slug": "chakkumon",
+      "image": "assets/seal/chakkumon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Grotmon",
+      "slug": "grotmon",
+      "image": "assets/seal/grotmon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "KaiserGreymon",
+      "slug": "kaisergreymon",
+      "image": "assets/seal/kaisergreymon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Agumon: Laços da Coragem",
+      "slug": "agumon-lacos-da-coragem",
+      "image": "assets/seal/agumon-lacos-da-coragem.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Selo Chuseok Abundante - CT",
+      "slug": "selo-chuseok-abundante-ct",
+      "image": "assets/seal/selo-chuseok-abundante-ct.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "16 anos - CT",
+      "slug": "16-anos-ct",
+      "image": "assets/seal/16-anos-ct.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Exploração CT A",
+      "slug": "exploracao-ct-a",
+      "image": "assets/seal/exploracao-ct-a.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Exploração CT B",
+      "slug": "exploracao-ct-b",
+      "image": "assets/seal/exploracao-ct-b.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Exploração CT C",
+      "slug": "exploracao-ct-c",
+      "image": "assets/seal/exploracao-ct-c.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Dungeon Masters 3 CT",
+      "slug": "dungeon-masters-3-ct",
+      "image": "assets/seal/dungeon-masters-3-ct.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "LadyDevimon",
+      "slug": "ladydevimon",
+      "image": "assets/seal/ladydevimon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Birdramon",
+      "slug": "birdramon",
+      "image": "assets/seal/birdramon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "DeadlyAxemon",
+      "slug": "deadlyaxemon",
+      "image": "assets/seal/deadlyaxemon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "[Despertado] Lilithmon X",
+      "slug": "despertado-lilithmon-x",
+      "image": "assets/seal/despertado-lilithmon-x.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "CT",
+      "name": "Aniversáro de 3 Anos - CT",
+      "slug": "aniversaro-de-3-anos-ct",
+      "image": "assets/seal/aniversaro-de-3-anos-ct.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Fanbeemon",
+      "slug": "fanbeemon",
+      "image": "assets/seal/fanbeemon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Coredramon (Azul)",
+      "slug": "coredramon-azul",
+      "image": "assets/seal/coredramon-azul.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Drimogemon",
+      "slug": "drimogemon",
+      "image": "assets/seal/drimogemon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Dorugamon",
+      "slug": "dorugamon",
+      "image": "assets/seal/dorugamon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Knightmon",
+      "slug": "knightmon",
+      "image": "assets/seal/knightmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Garudamon",
+      "slug": "garudamon",
+      "image": "assets/seal/garudamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Parasimon",
+      "slug": "parasimon",
+      "image": "assets/seal/parasimon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Baihumon",
+      "slug": "baihumon",
+      "image": "assets/seal/baihumon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Lordknightmon",
+      "slug": "lordknightmon",
+      "image": "assets/seal/lordknightmon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Craniamon",
+      "slug": "craniamon",
+      "image": "assets/seal/craniamon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Gabumon",
+      "slug": "gabumon",
+      "image": "assets/seal/gabumon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Darktyranomon",
+      "slug": "darktyranomon",
+      "image": "assets/seal/darktyranomon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "TyrantKabuterimon",
+      "slug": "tyrantkabuterimon",
+      "image": "assets/seal/tyrantkabuterimon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Witchmon",
+      "slug": "witchmon",
+      "image": "assets/seal/witchmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Floramon",
+      "slug": "floramon",
+      "image": "assets/seal/floramon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Beelzebumon",
+      "slug": "beelzebumon",
+      "image": "assets/seal/beelzebumon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "WereGarurumon (Black)",
+      "slug": "weregarurumon-black",
+      "image": "assets/seal/weregarurumon-black.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "GeoGreymon",
+      "slug": "geogreymon",
+      "image": "assets/seal/geogreymon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Rosemon",
+      "slug": "rosemon",
+      "image": "assets/seal/rosemon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Crownmon",
+      "slug": "crownmon",
+      "image": "assets/seal/crownmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Hackmon",
+      "slug": "hackmon",
+      "image": "assets/seal/hackmon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo de atirador",
+      "slug": "selo-de-atirador",
+      "image": "assets/seal/selo-de-atirador.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "MetalGreymon",
+      "slug": "metalgreymon",
+      "image": "assets/seal/metalgreymon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Apocalymon",
+      "slug": "apocalymon",
+      "image": "assets/seal/apocalymon.png",
+      "levels": [
+        55,
+        110,
+        220,
+        330,
+        440,
+        550
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo de exploração",
+      "slug": "selo-de-exploracao",
+      "image": "assets/seal/selo-de-exploracao.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "BelialVamdemon",
+      "slug": "belialvamdemon",
+      "image": "assets/seal/belialvamdemon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Antylamon",
+      "slug": "antylamon",
+      "image": "assets/seal/antylamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Blossomon",
+      "slug": "blossomon",
+      "image": "assets/seal/blossomon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo de Coruja",
+      "slug": "selo-de-coruja",
+      "image": "assets/seal/selo-de-coruja.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "MagnaDramon",
+      "slug": "magnadramon",
+      "image": "assets/seal/magnadramon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Alphamon Ourtuken",
+      "slug": "alphamon-ourtuken",
+      "image": "assets/seal/alphamon-ourtuken.png",
+      "levels": [
+        55,
+        110,
+        220,
+        330,
+        440,
+        550
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Starmon",
+      "slug": "starmon",
+      "image": "assets/seal/starmon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Paildramon",
+      "slug": "paildramon",
+      "image": "assets/seal/paildramon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Gryphonmon",
+      "slug": "gryphonmon",
+      "image": "assets/seal/gryphonmon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Duftmon",
+      "slug": "duftmon",
+      "image": "assets/seal/duftmon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Rafflesimon",
+      "slug": "rafflesimon",
+      "image": "assets/seal/rafflesimon.png",
+      "levels": [
+        45,
+        90,
+        180,
+        270,
+        360,
+        450
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo de GrandPrix",
+      "slug": "selo-de-grandprix",
+      "image": "assets/seal/selo-de-grandprix.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "ShogunGekomon",
+      "slug": "shogungekomon",
+      "image": "assets/seal/shogungekomon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo de Digimon Adventure 02",
+      "slug": "selo-de-digimon-adventure-02",
+      "image": "assets/seal/selo-de-digimon-adventure-02.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "New LADMO HT Seal",
+      "slug": "new-ladmo-ht-seal",
+      "image": "assets/seal/new-ladmo-ht-seal.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Gammamon",
+      "slug": "gammamon",
+      "image": "assets/seal/gammamon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo do broto",
+      "slug": "selo-do-broto",
+      "image": "assets/seal/selo-do-broto.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Dungeon Masters HT",
+      "slug": "dungeon-masters-ht",
+      "image": "assets/seal/dungeon-masters-ht.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo HT - Dungeon Masters",
+      "slug": "selo-ht-dungeon-masters",
+      "image": "assets/seal/selo-ht-dungeon-masters.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo HT - Passe de Temporada",
+      "slug": "selo-ht-passe-de-temporada",
+      "image": "assets/seal/selo-ht-passe-de-temporada.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "MiMi",
+      "slug": "mimi",
+      "image": "assets/seal/mimi.png",
+      "levels": [
+        60,
+        120,
+        240,
+        360,
+        480,
+        600
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "[Despertado] ZeedMillenniumon",
+      "slug": "despertado-zeedmillenniumon",
+      "image": "assets/seal/despertado-zeedmillenniumon.png",
+      "levels": [
+        55,
+        110,
+        220,
+        330,
+        440,
+        550
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "MoonMillenniummon",
+      "slug": "moonmillenniummon",
+      "image": "assets/seal/moonmillenniummon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Shoutmon",
+      "slug": "shoutmon",
+      "image": "assets/seal/shoutmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo de Inverno [HT]",
+      "slug": "selo-de-inverno-ht",
+      "image": "assets/seal/selo-de-inverno-ht.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Togemon X",
+      "slug": "togemon-x",
+      "image": "assets/seal/togemon-x.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Dynasmon X",
+      "slug": "dynasmon-x",
+      "image": "assets/seal/dynasmon-x.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Centarumon X",
+      "slug": "centarumon-x",
+      "image": "assets/seal/centarumon-x.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Examon X",
+      "slug": "examon-x",
+      "image": "assets/seal/examon-x.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Wolfmon",
+      "slug": "wolfmon",
+      "image": "assets/seal/wolfmon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Petaldramon",
+      "slug": "petaldramon",
+      "image": "assets/seal/petaldramon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "JetMervamon",
+      "slug": "jetmervamon",
+      "image": "assets/seal/jetmervamon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Gabumon: Laços da Amizade",
+      "slug": "gabumon-lacos-da-amizade",
+      "image": "assets/seal/gabumon-lacos-da-amizade.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo Chuseok Abundante - HT",
+      "slug": "selo-chuseok-abundante-ht",
+      "image": "assets/seal/selo-chuseok-abundante-ht.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "16 anos - HT",
+      "slug": "16-anos-ht",
+      "image": "assets/seal/16-anos-ht.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Exploração HT A",
+      "slug": "exploracao-ht-a",
+      "image": "assets/seal/exploracao-ht-a.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Exploração HT B",
+      "slug": "exploracao-ht-b",
+      "image": "assets/seal/exploracao-ht-b.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Exploração HT C",
+      "slug": "exploracao-ht-c",
+      "image": "assets/seal/exploracao-ht-c.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Dungeon Masters 3 HT",
+      "slug": "dungeon-masters-3-ht",
+      "image": "assets/seal/dungeon-masters-3-ht.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Wendigomon",
+      "slug": "wendigomon",
+      "image": "assets/seal/wendigomon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "SymbareAngoramon",
+      "slug": "symbareangoramon",
+      "image": "assets/seal/symbareangoramon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Omegamon Zwart D",
+      "slug": "omegamon-zwart-d",
+      "image": "assets/seal/omegamon-zwart-d.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Selo de Natal HT",
+      "slug": "selo-de-natal-ht",
+      "image": "assets/seal/selo-de-natal-ht.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Virada da Sorte HT",
+      "slug": "virada-da-sorte-ht",
+      "image": "assets/seal/virada-da-sorte-ht.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HT",
+      "name": "Aniversário de 3 Anos- HT",
+      "slug": "aniversario-de-3-anos-ht",
+      "image": "assets/seal/aniversario-de-3-anos-ht.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "V-mon",
+      "slug": "v-mon",
+      "image": "assets/seal/v-mon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Soulmon",
+      "slug": "soulmon",
+      "image": "assets/seal/soulmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Xuanwumon",
+      "slug": "xuanwumon",
+      "image": "assets/seal/xuanwumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Tsunomon",
+      "slug": "tsunomon",
+      "image": "assets/seal/tsunomon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Keramon",
+      "slug": "keramon",
+      "image": "assets/seal/keramon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Gazimon",
+      "slug": "gazimon",
+      "image": "assets/seal/gazimon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Gardromon",
+      "slug": "gardromon",
+      "image": "assets/seal/gardromon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Centalmon",
+      "slug": "centalmon",
+      "image": "assets/seal/centalmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "SkullSatamon",
+      "slug": "skullsatamon",
+      "image": "assets/seal/skullsatamon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "DexDoruGreymon",
+      "slug": "dexdorugreymon",
+      "image": "assets/seal/dexdorugreymon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Sinduramon",
+      "slug": "sinduramon",
+      "image": "assets/seal/sinduramon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "UlforceVeedramon",
+      "slug": "ulforceveedramon",
+      "image": "assets/seal/ulforceveedramon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Reptiledramon",
+      "slug": "reptiledramon",
+      "image": "assets/seal/reptiledramon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Raremon",
+      "slug": "raremon",
+      "image": "assets/seal/raremon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Omegamon Alter-S",
+      "slug": "omegamon-alter-s",
+      "image": "assets/seal/omegamon-alter-s.png",
+      "levels": [
+        60,
+        120,
+        240,
+        360,
+        480,
+        600
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "WarGreymon",
+      "slug": "wargreymon",
+      "image": "assets/seal/wargreymon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Ikkakumon",
+      "slug": "ikkakumon",
+      "image": "assets/seal/ikkakumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Lucemon: 2º Modo Wild",
+      "slug": "lucemon-2-modo-wild",
+      "image": "assets/seal/lucemon-2-modo-wild.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "ShineGreymon no Modo Burst",
+      "slug": "shinegreymon-no-modo-burst",
+      "image": "assets/seal/shinegreymon-no-modo-burst.png",
+      "levels": [
+        55,
+        110,
+        220,
+        330,
+        440,
+        550
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Gaomon",
+      "slug": "gaomon",
+      "image": "assets/seal/gaomon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "SunFlowmon",
+      "slug": "sunflowmon",
+      "image": "assets/seal/sunflowmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "BanchoLeomon",
+      "slug": "bancholeomon",
+      "image": "assets/seal/bancholeomon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Selo de Crescimento Saudável",
+      "slug": "selo-de-crescimento-saudavel",
+      "image": "assets/seal/selo-de-crescimento-saudavel.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Whamon",
+      "slug": "whamon",
+      "image": "assets/seal/whamon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "MetalSeadramon",
+      "slug": "metalseadramon",
+      "image": "assets/seal/metalseadramon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Garurumon",
+      "slug": "garurumon",
+      "image": "assets/seal/garurumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Ogremon",
+      "slug": "ogremon",
+      "image": "assets/seal/ogremon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Sakuyamon",
+      "slug": "sakuyamon",
+      "image": "assets/seal/sakuyamon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Selo de Sinceridade",
+      "slug": "selo-de-sinceridade",
+      "image": "assets/seal/selo-de-sinceridade.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Angewomon",
+      "slug": "angewomon",
+      "image": "assets/seal/angewomon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Cherubimon White (Normal)",
+      "slug": "cherubimon-white-normal",
+      "image": "assets/seal/cherubimon-white-normal.png",
+      "levels": [
+        45,
+        90,
+        180,
+        270,
+        360,
+        450
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Valdurmon",
+      "slug": "valdurmon",
+      "image": "assets/seal/valdurmon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Susanoomon",
+      "slug": "susanoomon",
+      "image": "assets/seal/susanoomon.png",
+      "levels": [
+        60,
+        120,
+        240,
+        360,
+        480,
+        600
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Kokuwamon",
+      "slug": "kokuwamon",
+      "image": "assets/seal/kokuwamon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Seadramon",
+      "slug": "seadramon",
+      "image": "assets/seal/seadramon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Pumpkinmon",
+      "slug": "pumpkinmon",
+      "image": "assets/seal/pumpkinmon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Boltmon",
+      "slug": "boltmon",
+      "image": "assets/seal/boltmon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Selo Rei do Futebol",
+      "slug": "selo-rei-do-futebol",
+      "image": "assets/seal/selo-rei-do-futebol.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Dokunemon",
+      "slug": "dokunemon",
+      "image": "assets/seal/dokunemon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Gokimon",
+      "slug": "gokimon",
+      "image": "assets/seal/gokimon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Otamamon",
+      "slug": "otamamon",
+      "image": "assets/seal/otamamon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Selo de Halloween",
+      "slug": "selo-de-halloween",
+      "image": "assets/seal/selo-de-halloween.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "New LADMO HP Seal",
+      "slug": "new-ladmo-hp-seal",
+      "image": "assets/seal/new-ladmo-hp-seal.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Canoweissmon",
+      "slug": "canoweissmon",
+      "image": "assets/seal/canoweissmon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Dungeon Masters HP",
+      "slug": "dungeon-masters-hp",
+      "image": "assets/seal/dungeon-masters-hp.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Selo HP - Dungeon Masters",
+      "slug": "selo-hp-dungeon-masters",
+      "image": "assets/seal/selo-hp-dungeon-masters.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Selo HP - Passe de temporada",
+      "slug": "selo-hp-passe-de-temporada",
+      "image": "assets/seal/selo-hp-passe-de-temporada.png",
+      "levels": [
+        100,
+        200,
+        400,
+        600,
+        800,
+        1000
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "[Despertado] Gallantmon Modo Carmesim",
+      "slug": "despertado-gallantmon-modo-carmesim",
+      "image": "assets/seal/despertado-gallantmon-modo-carmesim.png",
+      "levels": [
+        60,
+        120,
+        240,
+        360,
+        480,
+        600
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Lucemon: Modo Queda",
+      "slug": "lucemon-modo-queda",
+      "image": "assets/seal/lucemon-modo-queda.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "MailBirdramon",
+      "slug": "mailbirdramon",
+      "image": "assets/seal/mailbirdramon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "TigerVespamon",
+      "slug": "tigervespamon",
+      "image": "assets/seal/tigervespamon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Megidramon X",
+      "slug": "megidramon-x",
+      "image": "assets/seal/megidramon-x.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Que Delícia! Bolo 16º Aniversário",
+      "slug": "que-delicia-bolo-16-aniversario",
+      "image": "assets/seal/que-delicia-bolo-16-aniversario.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Blizzarmon",
+      "slug": "blizzarmon",
+      "image": "assets/seal/blizzarmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Sefirotmon",
+      "slug": "sefirotmon",
+      "image": "assets/seal/sefirotmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Ophanimon: Modo Caído",
+      "slug": "ophanimon-modo-caido",
+      "image": "assets/seal/ophanimon-modo-caido.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "16 anos - HP",
+      "slug": "16-anos-hp",
+      "image": "assets/seal/16-anos-hp.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Exploração HP A",
+      "slug": "exploracao-hp-a",
+      "image": "assets/seal/exploracao-hp-a.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Exploração HP B",
+      "slug": "exploracao-hp-b",
+      "image": "assets/seal/exploracao-hp-b.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Exploração HP C",
+      "slug": "exploracao-hp-c",
+      "image": "assets/seal/exploracao-hp-c.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Dungeon Masters 3 HP",
+      "slug": "dungeon-masters-3-hp",
+      "image": "assets/seal/dungeon-masters-3-hp.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Groundramon",
+      "slug": "groundramon",
+      "image": "assets/seal/groundramon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Matt",
+      "slug": "matt",
+      "image": "assets/seal/matt.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "HP",
+      "name": "Aniversário de 3 Anos - HP",
+      "slug": "aniversario-de-3-anos-hp",
+      "image": "assets/seal/aniversario-de-3-anos-hp.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Diablomon",
+      "slug": "diablomon",
+      "image": "assets/seal/diablomon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Agumon",
+      "slug": "agumon",
+      "image": "assets/seal/agumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Coredramon (Verde)",
+      "slug": "coredramon-verde",
+      "image": "assets/seal/coredramon-verde.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Zhuqiaomon",
+      "slug": "zhuqiaomon",
+      "image": "assets/seal/zhuqiaomon.png",
+      "levels": [
+        60,
+        120,
+        240,
+        360,
+        480,
+        600
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "DemiMeramon",
+      "slug": "demimeramon",
+      "image": "assets/seal/demimeramon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Candlemon",
+      "slug": "candlemon",
+      "image": "assets/seal/candlemon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Woodmon",
+      "slug": "woodmon",
+      "image": "assets/seal/woodmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "SkullGreymon",
+      "slug": "skullgreymon",
+      "image": "assets/seal/skullgreymon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Asuramon",
+      "slug": "asuramon",
+      "image": "assets/seal/asuramon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "WereGarurumon",
+      "slug": "weregarurumon",
+      "image": "assets/seal/weregarurumon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Toy Agumon",
+      "slug": "toy-agumon",
+      "image": "assets/seal/toy-agumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Dorumon",
+      "slug": "dorumon",
+      "image": "assets/seal/dorumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Gesomon",
+      "slug": "gesomon",
+      "image": "assets/seal/gesomon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Kabuterimon",
+      "slug": "kabuterimon",
+      "image": "assets/seal/kabuterimon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Yukidarumon",
+      "slug": "yukidarumon",
+      "image": "assets/seal/yukidarumon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Mikemon",
+      "slug": "mikemon",
+      "image": "assets/seal/mikemon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Piyomon",
+      "slug": "piyomon",
+      "image": "assets/seal/piyomon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Puppetmon",
+      "slug": "puppetmon",
+      "image": "assets/seal/puppetmon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "MachGaogamon",
+      "slug": "machgaogamon",
+      "image": "assets/seal/machgaogamon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Peckmon",
+      "slug": "peckmon",
+      "image": "assets/seal/peckmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Selo de Onda de Calor",
+      "slug": "selo-de-onda-de-calor",
+      "image": "assets/seal/selo-de-onda-de-calor.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Angemon",
+      "slug": "angemon",
+      "image": "assets/seal/angemon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Piedmon",
+      "slug": "piedmon",
+      "image": "assets/seal/piedmon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Gawappamon",
+      "slug": "gawappamon",
+      "image": "assets/seal/gawappamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Selo de Felicidade",
+      "slug": "selo-de-felicidade",
+      "image": "assets/seal/selo-de-felicidade.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "GrandisKuwagamon",
+      "slug": "grandiskuwagamon",
+      "image": "assets/seal/grandiskuwagamon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Gladimon",
+      "slug": "gladimon",
+      "image": "assets/seal/gladimon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Kudamon",
+      "slug": "kudamon",
+      "image": "assets/seal/kudamon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Tyilinmon",
+      "slug": "tyilinmon",
+      "image": "assets/seal/tyilinmon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Anubimon",
+      "slug": "anubimon",
+      "image": "assets/seal/anubimon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Selo de Carnaval",
+      "slug": "selo-de-carnaval",
+      "image": "assets/seal/selo-de-carnaval.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Psychemon",
+      "slug": "psychemon",
+      "image": "assets/seal/psychemon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Wizardmon",
+      "slug": "wizardmon",
+      "image": "assets/seal/wizardmon.png",
+      "levels": [
+        35,
+        70,
+        140,
+        210,
+        280,
+        350
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Toucamon",
+      "slug": "toucamon",
+      "image": "assets/seal/toucamon.png",
+      "levels": [
+        35,
+        70,
+        140,
+        210,
+        280,
+        350
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Taomon",
+      "slug": "taomon",
+      "image": "assets/seal/taomon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Lotusmon",
+      "slug": "lotusmon",
+      "image": "assets/seal/lotusmon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Plesiomon",
+      "slug": "plesiomon",
+      "image": "assets/seal/plesiomon.png",
+      "levels": [
+        50,
+        100,
+        200,
+        300,
+        400,
+        500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Gekomon",
+      "slug": "gekomon",
+      "image": "assets/seal/gekomon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Betamon",
+      "slug": "betamon",
+      "image": "assets/seal/betamon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Bakemon",
+      "slug": "bakemon",
+      "image": "assets/seal/bakemon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "New LADMO DS",
+      "slug": "new-ladmo-ds",
+      "image": "assets/seal/new-ladmo-ds.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Baalmon",
+      "slug": "baalmon",
+      "image": "assets/seal/baalmon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Dungeon Masters",
+      "slug": "dungeon-masters",
+      "image": "assets/seal/dungeon-masters.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Selo DS - Dungeon Masters",
+      "slug": "selo-ds-dungeon-masters",
+      "image": "assets/seal/selo-ds-dungeon-masters.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Selo DS - Passe de Temporada",
+      "slug": "selo-ds-passe-de-temporada",
+      "image": "assets/seal/selo-ds-passe-de-temporada.png",
+      "levels": [
+        150,
+        300,
+        600,
+        900,
+        1200,
+        1500
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "[Despertado] Susanoomon",
+      "slug": "despertado-susanoomon",
+      "image": "assets/seal/despertado-susanoomon.png",
+      "levels": [
+        60,
+        120,
+        240,
+        360,
+        480,
+        600
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "GulusGammamon",
+      "slug": "gulusgammamon",
+      "image": "assets/seal/gulusgammamon.png",
+      "levels": [
+        40,
+        80,
+        160,
+        240,
+        320,
+        400
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Lillymon X",
+      "slug": "lillymon-x",
+      "image": "assets/seal/lillymon-x.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Rosemon X",
+      "slug": "rosemon-x",
+      "image": "assets/seal/rosemon-x.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Lilithmon X",
+      "slug": "lilithmon-x",
+      "image": "assets/seal/lilithmon-x.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Demon X",
+      "slug": "demon-x",
+      "image": "assets/seal/demon-x.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Fairimon",
+      "slug": "fairimon",
+      "image": "assets/seal/fairimon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Lanamon",
+      "slug": "lanamon",
+      "image": "assets/seal/lanamon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "MarineAngemon",
+      "slug": "marineangemon",
+      "image": "assets/seal/marineangemon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "16 anos - DS",
+      "slug": "16-anos-ds",
+      "image": "assets/seal/16-anos-ds.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Exploração DS A",
+      "slug": "exploracao-ds-a",
+      "image": "assets/seal/exploracao-ds-a.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Exploração DS B",
+      "slug": "exploracao-ds-b",
+      "image": "assets/seal/exploracao-ds-b.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Exploração DS C",
+      "slug": "exploracao-ds-c",
+      "image": "assets/seal/exploracao-ds-c.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Dungeon Masters 3 DS",
+      "slug": "dungeon-masters-3-ds",
+      "image": "assets/seal/dungeon-masters-3-ds.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Eosmon (Perfeito)",
+      "slug": "eosmon-perfeito",
+      "image": "assets/seal/eosmon-perfeito.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "TeslaJellymon",
+      "slug": "teslajellymon",
+      "image": "assets/seal/teslajellymon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DS",
+      "name": "Aniversário de 3 Anos - DS",
+      "slug": "aniversario-de-3-anos-ds",
+      "image": "assets/seal/aniversario-de-3-anos-ds.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Goblimon",
+      "slug": "goblimon",
+      "image": "assets/seal/goblimon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Leomon",
+      "slug": "leomon",
+      "image": "assets/seal/leomon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Upamon",
+      "slug": "upamon",
+      "image": "assets/seal/upamon.png",
+      "levels": [
+        8,
+        16,
+        32,
+        48,
+        64,
+        80
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Renamon",
+      "slug": "renamon",
+      "image": "assets/seal/renamon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Elecmon",
+      "slug": "elecmon",
+      "image": "assets/seal/elecmon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Flymon",
+      "slug": "flymon",
+      "image": "assets/seal/flymon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Meramon",
+      "slug": "meramon",
+      "image": "assets/seal/meramon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Meteormon",
+      "slug": "meteormon",
+      "image": "assets/seal/meteormon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Chimairamon",
+      "slug": "chimairamon",
+      "image": "assets/seal/chimairamon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "WaruMonzaemon",
+      "slug": "warumonzaemon",
+      "image": "assets/seal/warumonzaemon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Sleipmon",
+      "slug": "sleipmon",
+      "image": "assets/seal/sleipmon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Rockmon",
+      "slug": "rockmon",
+      "image": "assets/seal/rockmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Monochromon",
+      "slug": "monochromon",
+      "image": "assets/seal/monochromon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "MetalTyranomon",
+      "slug": "metaltyranomon",
+      "image": "assets/seal/metaltyranomon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Kamemon",
+      "slug": "kamemon",
+      "image": "assets/seal/kamemon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Ankylomon",
+      "slug": "ankylomon",
+      "image": "assets/seal/ankylomon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Shakomon",
+      "slug": "shakomon",
+      "image": "assets/seal/shakomon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Shellmon",
+      "slug": "shellmon",
+      "image": "assets/seal/shellmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Palmon",
+      "slug": "palmon",
+      "image": "assets/seal/palmon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "HerculesKabuterimon",
+      "slug": "herculeskabuterimon",
+      "image": "assets/seal/herculeskabuterimon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Thunderballmon",
+      "slug": "thunderballmon",
+      "image": "assets/seal/thunderballmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "BaoHackmon",
+      "slug": "baohackmon",
+      "image": "assets/seal/baohackmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Salamon",
+      "slug": "salamon",
+      "image": "assets/seal/salamon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Selo de armadura",
+      "slug": "selo-de-armadura",
+      "image": "assets/seal/selo-de-armadura.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "PawnChessmon W",
+      "slug": "pawnchessmon-w",
+      "image": "assets/seal/pawnchessmon-w.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Labramon",
+      "slug": "labramon",
+      "image": "assets/seal/labramon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "JewelBeemon",
+      "slug": "jewelbeemon",
+      "image": "assets/seal/jewelbeemon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Seraphimon",
+      "slug": "seraphimon",
+      "image": "assets/seal/seraphimon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Gotsumon",
+      "slug": "gotsumon",
+      "image": "assets/seal/gotsumon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Icemon",
+      "slug": "icemon",
+      "image": "assets/seal/icemon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Flybeemon",
+      "slug": "flybeemon",
+      "image": "assets/seal/flybeemon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "SuperStarmon",
+      "slug": "superstarmon",
+      "image": "assets/seal/superstarmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "OmegaShoutmon",
+      "slug": "omegashoutmon",
+      "image": "assets/seal/omegashoutmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "JumboGamemon",
+      "slug": "jumbogamemon",
+      "image": "assets/seal/jumbogamemon.png",
+      "levels": [
+        25,
+        50,
+        100,
+        150,
+        200,
+        250
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "ShoutmonDX",
+      "slug": "shoutmondx",
+      "image": "assets/seal/shoutmondx.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Motimon",
+      "slug": "motimon",
+      "image": "assets/seal/motimon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "New LADMO DE",
+      "slug": "new-ladmo-de",
+      "image": "assets/seal/new-ladmo-de.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "WezenGammamon",
+      "slug": "wezengammamon",
+      "image": "assets/seal/wezengammamon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Dungeon Masters DE",
+      "slug": "dungeon-masters-de",
+      "image": "assets/seal/dungeon-masters-de.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Selo DE- Dungeon Masters",
+      "slug": "selo-de-dungeon-masters",
+      "image": "assets/seal/selo-de-dungeon-masters.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Selo DE - Passe de Temporada",
+      "slug": "selo-de-passe-de-temporada",
+      "image": "assets/seal/selo-de-passe-de-temporada.png",
+      "levels": [
+        70,
+        140,
+        280,
+        420,
+        560,
+        700
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "BloomLordmon",
+      "slug": "bloomlordmon",
+      "image": "assets/seal/bloomlordmon.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "[Despertado] Gallantmon",
+      "slug": "despertado-gallantmon",
+      "image": "assets/seal/despertado-gallantmon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Diarbbitmon",
+      "slug": "diarbbitmon",
+      "image": "assets/seal/diarbbitmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "MetalGreymon X",
+      "slug": "metalgreymon-x",
+      "image": "assets/seal/metalgreymon-x.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Duftmon X",
+      "slug": "duftmon-x",
+      "image": "assets/seal/duftmon-x.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Lordknightmon X",
+      "slug": "lordknightmon-x",
+      "image": "assets/seal/lordknightmon-x.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Chaosdramon X",
+      "slug": "chaosdramon-x",
+      "image": "assets/seal/chaosdramon-x.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Garmmon",
+      "slug": "garmmon",
+      "image": "assets/seal/garmmon.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Blitzmon",
+      "slug": "blitzmon",
+      "image": "assets/seal/blitzmon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Calmaramon",
+      "slug": "calmaramon",
+      "image": "assets/seal/calmaramon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "KaiserLeomon",
+      "slug": "kaiserleomon",
+      "image": "assets/seal/kaiserleomon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "16 anos - DE",
+      "slug": "16-anos-de",
+      "image": "assets/seal/16-anos-de.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Exploração DE A",
+      "slug": "exploracao-de-a",
+      "image": "assets/seal/exploracao-de-a.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Exploração DE B",
+      "slug": "exploracao-de-b",
+      "image": "assets/seal/exploracao-de-b.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Exploração DE C",
+      "slug": "exploracao-de-c",
+      "image": "assets/seal/exploracao-de-c.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Dungeon Masters 3 DE",
+      "slug": "dungeon-masters-3-de",
+      "image": "assets/seal/dungeon-masters-3-de.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Okuwamon",
+      "slug": "okuwamon",
+      "image": "assets/seal/okuwamon.png",
+      "levels": [
+        15,
+        30,
+        60,
+        90,
+        120,
+        150
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Dokugumon",
+      "slug": "dokugumon",
+      "image": "assets/seal/dokugumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Dorulumon",
+      "slug": "dorulumon",
+      "image": "assets/seal/dorulumon.png",
+      "levels": [
+        20,
+        40,
+        80,
+        120,
+        160,
+        200
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Selo de Natal DE",
+      "slug": "selo-de-natal-de",
+      "image": "assets/seal/selo-de-natal-de.png",
+      "levels": [
+        30,
+        60,
+        120,
+        180,
+        240,
+        300
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "DE",
+      "name": "Aniversário de 3 Anos - DE",
+      "slug": "aniversario-de-3-anos-de",
+      "image": "assets/seal/aniversario-de-3-anos-de.png",
+      "levels": [
+        10,
+        20,
+        40,
+        60,
+        80,
+        100
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Etemon",
+      "slug": "etemon",
+      "image": "assets/seal/etemon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Tentomon",
+      "slug": "tentomon",
+      "image": "assets/seal/tentomon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Dracmon",
+      "slug": "dracmon",
+      "image": "assets/seal/dracmon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Waspmon",
+      "slug": "waspmon",
+      "image": "assets/seal/waspmon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Sangloupmon",
+      "slug": "sangloupmon",
+      "image": "assets/seal/sangloupmon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Vikaralamon",
+      "slug": "vikaralamon",
+      "image": "assets/seal/vikaralamon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "MegaSeadramon",
+      "slug": "megaseadramon",
+      "image": "assets/seal/megaseadramon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Fanglongmon",
+      "slug": "fanglongmon",
+      "image": "assets/seal/fanglongmon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "TankDramon",
+      "slug": "tankdramon",
+      "image": "assets/seal/tankdramon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Agumon (S)",
+      "slug": "agumon-s",
+      "image": "assets/seal/agumon-s.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "ShineGreymon",
+      "slug": "shinegreymon",
+      "image": "assets/seal/shinegreymon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Lilamon",
+      "slug": "lilamon",
+      "image": "assets/seal/lilamon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Falcomon",
+      "slug": "falcomon",
+      "image": "assets/seal/falcomon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Gabumon (Black)",
+      "slug": "gabumon-black",
+      "image": "assets/seal/gabumon-black.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Selo Firme",
+      "slug": "selo-firme",
+      "image": "assets/seal/selo-firme.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Gomamon",
+      "slug": "gomamon",
+      "image": "assets/seal/gomamon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Shakkoumon",
+      "slug": "shakkoumon",
+      "image": "assets/seal/shakkoumon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Gallantmon no Modo Crimson",
+      "slug": "gallantmon-no-modo-crimson",
+      "image": "assets/seal/gallantmon-no-modo-crimson.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Selo da Amizade",
+      "slug": "selo-da-amizade",
+      "image": "assets/seal/selo-da-amizade.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Ofanimon",
+      "slug": "ofanimon",
+      "image": "assets/seal/ofanimon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Alphamon Ouryuken (Despertado)",
+      "slug": "alphamon-ouryuken-despertado",
+      "image": "assets/seal/alphamon-ouryuken-despertado.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Doggymon",
+      "slug": "doggymon",
+      "image": "assets/seal/doggymon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "SkullMeramon",
+      "slug": "skullmeramon",
+      "image": "assets/seal/skullmeramon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Z'dGarurumon",
+      "slug": "z-dgarurumon",
+      "image": "assets/seal/z-dgarurumon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "MagnaGarurumon",
+      "slug": "magnagarurumon",
+      "image": "assets/seal/magnagarurumon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Shoutmon X7: superiormode",
+      "slug": "shoutmon-x7-superiormode",
+      "image": "assets/seal/shoutmon-x7-superiormode.png",
+      "levels": [
+        0.5,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Selo da Primavera",
+      "slug": "selo-da-primavera",
+      "image": "assets/seal/selo-da-primavera.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "New LADMO BL",
+      "slug": "new-ladmo-bl",
+      "image": "assets/seal/new-ladmo-bl.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Angoramon",
+      "slug": "angoramon",
+      "image": "assets/seal/angoramon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Dungeon Masters BL",
+      "slug": "dungeon-masters-bl",
+      "image": "assets/seal/dungeon-masters-bl.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Selo Vampirico",
+      "slug": "selo-vampirico",
+      "image": "assets/seal/selo-vampirico.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Selo BL - Dungeon Masters",
+      "slug": "selo-bl-dungeon-masters",
+      "image": "assets/seal/selo-bl-dungeon-masters.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Selo BL - Passe de Temporada",
+      "slug": "selo-bl-passe-de-temporada",
+      "image": "assets/seal/selo-bl-passe-de-temporada.png",
+      "levels": [
+        0.7,
+        1.4,
+        2.8,
+        4.2,
+        5.6,
+        7
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Cross-up Mervamon",
+      "slug": "cross-up-mervamon",
+      "image": "assets/seal/cross-up-mervamon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "[Despertado] Sakuyamon",
+      "slug": "despertado-sakuyamon",
+      "image": "assets/seal/despertado-sakuyamon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Amphimon",
+      "slug": "amphimon",
+      "image": "assets/seal/amphimon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Gallantmon X",
+      "slug": "gallantmon-x",
+      "image": "assets/seal/gallantmon-x.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Barbamon X",
+      "slug": "barbamon-x",
+      "image": "assets/seal/barbamon-x.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Bolgmon",
+      "slug": "bolgmon",
+      "image": "assets/seal/bolgmon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Mercuremon",
+      "slug": "mercuremon",
+      "image": "assets/seal/mercuremon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Arbormon",
+      "slug": "arbormon",
+      "image": "assets/seal/arbormon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Lowemon",
+      "slug": "lowemon",
+      "image": "assets/seal/lowemon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "16 anos - BL",
+      "slug": "16-anos-bl",
+      "image": "assets/seal/16-anos-bl.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Exploração BL A",
+      "slug": "exploracao-bl-a",
+      "image": "assets/seal/exploracao-bl-a.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Exploração BL B",
+      "slug": "exploracao-bl-b",
+      "image": "assets/seal/exploracao-bl-b.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Exploração BL C",
+      "slug": "exploracao-bl-c",
+      "image": "assets/seal/exploracao-bl-c.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Dungeon Masters 3 BL",
+      "slug": "dungeon-masters-3-bl",
+      "image": "assets/seal/dungeon-masters-3-bl.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Scorpiomon",
+      "slug": "scorpiomon",
+      "image": "assets/seal/scorpiomon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Ballistamon",
+      "slug": "ballistamon",
+      "image": "assets/seal/ballistamon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "BL",
+      "name": "Aniversário de 3 Anos - BL",
+      "slug": "aniversario-de-3-anos-bl",
+      "image": "assets/seal/aniversario-de-3-anos-bl.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Lillymon",
+      "slug": "lillymon",
+      "image": "assets/seal/lillymon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Impmon",
+      "slug": "impmon",
+      "image": "assets/seal/impmon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Armadimon",
+      "slug": "armadimon",
+      "image": "assets/seal/armadimon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Digmon",
+      "slug": "digmon",
+      "image": "assets/seal/digmon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Veedramon",
+      "slug": "veedramon",
+      "image": "assets/seal/veedramon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Mystimon",
+      "slug": "mystimon",
+      "image": "assets/seal/mystimon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "NeoDevimon",
+      "slug": "neodevimon",
+      "image": "assets/seal/neodevimon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Dynasmon",
+      "slug": "dynasmon",
+      "image": "assets/seal/dynasmon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "DexDorugamon",
+      "slug": "dexdorugamon",
+      "image": "assets/seal/dexdorugamon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Gatomon",
+      "slug": "gatomon",
+      "image": "assets/seal/gatomon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Allomon",
+      "slug": "allomon",
+      "image": "assets/seal/allomon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Growmon",
+      "slug": "growmon",
+      "image": "assets/seal/growmon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Bokomon",
+      "slug": "bokomon",
+      "image": "assets/seal/bokomon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Yaksamon",
+      "slug": "yaksamon",
+      "image": "assets/seal/yaksamon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Blackgatomon",
+      "slug": "blackgatomon",
+      "image": "assets/seal/blackgatomon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Rapidmon",
+      "slug": "rapidmon",
+      "image": "assets/seal/rapidmon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "MirageGaogamon",
+      "slug": "miragegaogamon",
+      "image": "assets/seal/miragegaogamon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Rosemon Modo Burst",
+      "slug": "rosemon-modo-burst",
+      "image": "assets/seal/rosemon-modo-burst.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Ravemon",
+      "slug": "ravemon",
+      "image": "assets/seal/ravemon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "SaviorHackmon",
+      "slug": "saviorhackmon",
+      "image": "assets/seal/saviorhackmon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Selo Refrescante",
+      "slug": "selo-refrescante",
+      "image": "assets/seal/selo-refrescante.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "MegaKabuterimon",
+      "slug": "megakabuterimon",
+      "image": "assets/seal/megakabuterimon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Marsmon",
+      "slug": "marsmon",
+      "image": "assets/seal/marsmon.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Hagurumon",
+      "slug": "hagurumon",
+      "image": "assets/seal/hagurumon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Selo de Conhecimento",
+      "slug": "selo-de-conhecimento",
+      "image": "assets/seal/selo-de-conhecimento.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Reppamon",
+      "slug": "reppamon",
+      "image": "assets/seal/reppamon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Justimon",
+      "slug": "justimon",
+      "image": "assets/seal/justimon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Mastemon",
+      "slug": "mastemon",
+      "image": "assets/seal/mastemon.png",
+      "levels": [
+        0.45,
+        0.9,
+        1.8,
+        2.7,
+        3.6,
+        4.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Lopmon Seal",
+      "slug": "lopmon-seal",
+      "image": "assets/seal/lopmon-seal.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Jellymon",
+      "slug": "jellymon",
+      "image": "assets/seal/jellymon.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Holsmon",
+      "slug": "holsmon",
+      "image": "assets/seal/holsmon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Selo de Familía",
+      "slug": "selo-de-familia",
+      "image": "assets/seal/selo-de-familia.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "New LADMO EV",
+      "slug": "new-ladmo-ev",
+      "image": "assets/seal/new-ladmo-ev.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Bastemon",
+      "slug": "bastemon",
+      "image": "assets/seal/bastemon.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Dungeon Masters EV",
+      "slug": "dungeon-masters-ev",
+      "image": "assets/seal/dungeon-masters-ev.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Selo EV - Dungeon Masters",
+      "slug": "selo-ev-dungeon-masters",
+      "image": "assets/seal/selo-ev-dungeon-masters.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Selo EV - Passe de Temporada",
+      "slug": "selo-ev-passe-de-temporada",
+      "image": "assets/seal/selo-ev-passe-de-temporada.png",
+      "levels": [
+        0.7,
+        1.4,
+        2.8,
+        4.2,
+        5.6,
+        7
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Armagemon",
+      "slug": "armagemon",
+      "image": "assets/seal/armagemon.png",
+      "levels": [
+        0.4,
+        0.8,
+        1.6,
+        2.4,
+        3.2,
+        4
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "[Despertado] SaintGalgomon",
+      "slug": "despertado-saintgalgomon",
+      "image": "assets/seal/despertado-saintgalgomon.png",
+      "levels": [
+        0.35,
+        0.7,
+        1.4,
+        2.1,
+        2.8,
+        3.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "WereGarurumon X",
+      "slug": "weregarurumon-x",
+      "image": "assets/seal/weregarurumon-x.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Beelzemon X",
+      "slug": "beelzemon-x",
+      "image": "assets/seal/beelzemon-x.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Shutsmon",
+      "slug": "shutsmon",
+      "image": "assets/seal/shutsmon.png",
+      "levels": [
+        0.15,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Mervamon",
+      "slug": "mervamon",
+      "image": "assets/seal/mervamon.png",
+      "levels": [
+        0.25,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "16 anos - EV",
+      "slug": "16-anos-ev",
+      "image": "assets/seal/16-anos-ev.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Exploração EV A",
+      "slug": "exploracao-ev-a",
+      "image": "assets/seal/exploracao-ev-a.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Exploração EV B",
+      "slug": "exploracao-ev-b",
+      "image": "assets/seal/exploracao-ev-b.png",
+      "levels": [
+        0.2,
+        0.4,
+        0.8,
+        1.2,
+        1.6,
+        2
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Exploração EV C",
+      "slug": "exploracao-ev-c",
+      "image": "assets/seal/exploracao-ev-c.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "Dungeon Masters 3 EV",
+      "slug": "dungeon-masters-3-ev",
+      "image": "assets/seal/dungeon-masters-3-ev.png",
+      "levels": [
+        0.3,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3
+      ],
+      "maxCards": 3000
+    },
+    {
+      "stat": "EV",
+      "name": "MetalEtemon",
+      "slug": "metaletemon",
+      "image": "assets/seal/metaletemon.png",
+      "levels": [
+        0.1,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1
+      ],
+      "maxCards": 3000
+    }
+  ]
+}

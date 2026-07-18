@@ -16,7 +16,8 @@ const ICONS = {
   grid: '<rect x="3" y="3" width="7.5" height="7.5" rx="1.4"/><rect x="13.5" y="3" width="7.5" height="7.5" rx="1.4"/><rect x="3" y="13.5" width="7.5" height="7.5" rx="1.4"/><rect x="13.5" y="13.5" width="7.5" height="7.5" rx="1.4"/>',
   progress: '<path d="M5 21V11"/><path d="M12 21V4"/><path d="M19 21v-7"/><path d="M3 21h18"/>',
   inventory: '<path d="M21 8 12 3 3 8v8l9 5 9-5Z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/>',
-  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/>'
+  target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/>',
+  seal: '<circle cx="12" cy="8.5" r="5.5"/><path d="M8.5 13 7 21l5-2.5L17 21l-1.5-8"/>'
 }
 </script>
 

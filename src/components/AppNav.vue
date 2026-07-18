@@ -9,6 +9,7 @@ const emit = defineEmits(['update:modelValue'])
 const tabs = [
   { id: 'digimons', label: 'Digimons', icon: 'grid' },
   { id: 'progresso', label: 'Progresso', icon: 'progress' },
+  { id: 'selos', label: 'Selos', icon: 'seal' },
   { id: 'inventario', label: 'Inventário', icon: 'inventory' }
 ]
 </script>
