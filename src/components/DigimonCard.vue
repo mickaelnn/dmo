@@ -4,12 +4,12 @@ import AssetImage from './AssetImage.vue'
 import StatBadge from './StatBadge.vue'
 import { useInventory } from '../composables/useInventory.js'
 import { useConfirm } from '../composables/useConfirm.js'
+import { useDigivices } from '../composables/useDigivices.js'
+import { krStatsText } from '../data/keyring.js'
+import { fmtPct } from '../utils/format.js'
 
 // ícones do jogo para os status
-const ASSET = {
-  key: 'assets/keyring.png',
-  dv: 'assets/digivice.png'
-}
+const ASSET = { key: 'assets/keyring.png', dv: 'assets/digivice.png' }
 
 const props = defineProps({
   name: { type: String, required: true },
@@ -18,8 +18,9 @@ const props = defineProps({
   elements: { type: Object, default: () => ({}) }
 })
 
-const { toggleDigimon, ownsDigimon, hasKeyring, hasDigivice } = useInventory()
+const { toggleDigimon, ownsDigimon, hasKeyring, bestKeyring, matchingDigivice } = useInventory()
 const { confirm } = useConfirm()
+const { byId: digiviceById } = useDigivices()
 
 // marca direto; ao desmarcar (remover da coleção), pede confirmação
 async function onClick() {
@@ -38,11 +39,26 @@ const owned = computed(() => ownsDigimon(props.name))
 
 const fams = computed(() => props.info.families || [])
 const hasKey = computed(() => fams.value.some(f => hasKeyring(f)))
-// digivice combina com o digimon por atributo + elemento
-const hasDv = computed(() =>
-  !!(props.info.attribute && props.info.element &&
-     hasDigivice(props.info.attribute, props.info.element))
+// melhor chaveiro Ghost entre as famílias do digimon (família + nível)
+const bestKey = computed(() => bestKeyring(fams.value))
+// digivice possuído que casa com atributo + elemento do digimon
+const myDv = computed(() =>
+  (props.info.attribute && props.info.element)
+    ? matchingDigivice(props.info.attribute, props.info.element)
+    : null
 )
+const hasDv = computed(() => !!myDv.value)
+const dvCat = computed(() => myDv.value ? digiviceById.value[myDv.value.type] : null)
+const dvImage = computed(() => dvCat.value?.image || '')
+const dvTitle = computed(() => {
+  if (!myDv.value) return 'Sem digivice para esse atributo + elemento'
+  const name = dvCat.value?.name || myDv.value.type
+  const pcts = []
+  if (myDv.value.attrPct) pcts.push(`Atrib +${fmtPct(myDv.value.attrPct)}%`)
+  if (myDv.value.elemPct) pcts.push(`Elem +${fmtPct(myDv.value.elemPct)}%`)
+  const extra = pcts.length ? ' · ' + pcts.join(' / ') : (dvCat.value?.stats ? ' · ' + dvCat.value.stats : '')
+  return name + extra
+})
 </script>
 
 <template>
@@ -68,13 +84,23 @@ const hasDv = computed(() =>
 
     <div class="cardfoot">
       <div class="slots">
-        <span class="sicon" :class="{ off: !hasKey }" :title="hasKey ? 'Tenho o chaveiro +10' : 'Sem o chaveiro +10'">
+        <span class="sicon" :class="{ off: !hasKey }"
+              :title="bestKey ? `Chaveiro Ghost ${bestKey.family} +${bestKey.level} — ${krStatsText(bestKey.level)}` : 'Sem chaveiro Ghost'">
           <AssetImage :src="ASSET.key" alt="chaveiro">
             <template #fallback><span class="sfb k">K</span></template>
           </AssetImage>
+          <span v-if="bestKey" class="lvtag">+{{ bestKey.level }}</span>
         </span>
-        <span class="sicon" :class="{ off: !hasDv }" :title="hasDv ? 'Tenho o digivice certo' : 'Sem o digivice certo'">
-          <AssetImage :src="ASSET.dv" alt="digivice">
+        <span class="sicon" :class="{ off: !hasDv }" :title="dvTitle">
+          <!-- se tenho o digivice: sprite dele (fallback pro genérico) -->
+          <AssetImage v-if="hasDv && dvImage" :src="dvImage" alt="digivice">
+            <template #fallback>
+              <AssetImage :src="ASSET.dv" alt="digivice">
+                <template #fallback><span class="sfb d">D</span></template>
+              </AssetImage>
+            </template>
+          </AssetImage>
+          <AssetImage v-else :src="ASSET.dv" alt="digivice">
             <template #fallback><span class="sfb d">D</span></template>
           </AssetImage>
         </span>
@@ -120,9 +146,14 @@ const hasDv = computed(() =>
   border-top: 1px solid var(--line);
 }
 .slots { display: flex; align-items: center; gap: 6px; }
-.sicon { display: flex; align-items: center; justify-content: center; transition: opacity .15s, filter .15s; }
+.sicon { position: relative; display: flex; align-items: center; justify-content: center; transition: opacity .15s, filter .15s; }
 .sicon :deep(img) { width: 22px; height: 22px; object-fit: contain; }
 .sicon.off { opacity: .25; filter: grayscale(1); }
+.lvtag {
+  position: absolute; bottom: -6px; right: -8px;
+  font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 10px; line-height: 1;
+  color: #0b0e1a; background: var(--accent); border-radius: 5px; padding: 1px 4px;
+}
 .sfb {
   width: 22px; height: 22px; border-radius: 6px;
   display: flex; align-items: center; justify-content: center;

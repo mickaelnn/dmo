@@ -2,6 +2,7 @@
 import { ref, computed, onMounted } from 'vue'
 import { useData } from './composables/useData.js'
 import { useInventory } from './composables/useInventory.js'
+import { useDigivices } from './composables/useDigivices.js'
 
 import AppHeader from './components/AppHeader.vue'
 import AppNav from './components/AppNav.vue'
@@ -79,7 +80,8 @@ async function handleFile(file) {
   }
 }
 
-onMounted(load)
+const { load: loadDigivices } = useDigivices()
+onMounted(() => { load(); loadDigivices() })
 </script>
 
 <template>
@@ -128,8 +130,6 @@ onMounted(load)
         <CoveragePanel
           :digimons="digimons"
           :families="families"
-          :attributes="attributes"
-          :elements="elements"
         />
       </div>
 

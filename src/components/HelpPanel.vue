@@ -12,11 +12,11 @@ const faqs = [
   },
   {
     q: 'Aba Digimons — como funciona?',
-    a: 'Os digimons ficam agrupados por rank. Use a busca para achar pelo nome e os filtros “Todos / Que tenho / Que faltam”. Clique num card para marcar/desmarcar que você possui aquele digimon (ao desmarcar, ele pede confirmação). No rodapé de cada card aparecem os ícones de chaveiro e digivice (apagados quando faltam) e o selo “Possuído”.'
+    a: 'Os digimons ficam agrupados por rank. Use a busca para achar pelo nome e os filtros “Todos / Que tenho / Que faltam”. Clique num card para marcar/desmarcar que você possui aquele digimon (ao desmarcar, ele pede confirmação). No rodapé de cada card aparecem: o Chaveiro Ghost com o nível (+N) do melhor chaveiro entre as famílias, o ícone de digivice (aceso se você tem um digivice com o mesmo atributo + elemento do digimon, apagado se não) e o selo “Possuído”.'
   },
   {
     q: 'Aba Progresso — o que ela mostra?',
-    a: 'Uma barra da sua coleção (X de Y digimons), a lista dos digimons que você possui — com indicação de quais já têm chaveiro e digivice — e o painel “Cobertura & próximos passos”, com barras de quantos digimons já estão cobertos por chaveiro/digivice e listas do que falta. Clique num item para ver quais digimons dependem dele. Você pode calcular sobre todos os digimons ou só os que possui.'
+    a: 'Uma barra da sua coleção (X de Y digimons), a lista dos digimons que você possui — com o nível do Chaveiro Ghost de cada um — e o painel “Cobertura de chaveiro & próximos passos”, com a barra de quantos digimons já têm chaveiro e as listas “Que faltam / Que tenho”. Clique num chaveiro para ver quais digimons dependem dele. Você pode calcular sobre todos os digimons ou só os que possui.'
   },
   {
     q: 'Aba Selos — como marcar?',
@@ -24,7 +24,11 @@ const faqs = [
   },
   {
     q: 'Aba Inventário — para que serve?',
-    a: 'É onde você cadastra os chaveiros +10 que possui e os digivices (por atributo + elemento). Isso alimenta os indicadores de cobertura nas outras abas. Aqui também fica o backup do seu progresso.'
+    a: 'É onde você cadastra o Chaveiro Ghost de cada família — escolhendo o nível de aprimoramento (+0 a +15) — e a sua coleção de digivices. Um digimon que pertence a várias famílias mostra o chaveiro de maior nível entre elas. Passe o mouse sobre um chaveiro ou digivice para ver os status. Aqui também fica o backup do progresso.'
+  },
+  {
+    q: 'Como adiciono um digivice?',
+    a: 'Na aba Inventário, em “Digivices que possuo”, escolha o digivice na lista, selecione o atributo e o elemento, e (opcional) informe a % de cada um. Clique em adicionar: ele aparece com a imagem e as tags de atributo/elemento; passe o mouse para ver os status. Digivices são uma coleção sua e não estão ligados a um digimon específico.'
   },
   {
     q: 'Meus dados somem quando o site atualiza?',

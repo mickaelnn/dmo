@@ -12,6 +12,16 @@
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* scrollbar no tema do site */
+* { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb {
+  background: var(--line); border-radius: 999px;
+  border: 2px solid var(--bg); background-clip: padding-box;
+}
+*::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
 body {
   background: var(--bg);
   background-image:

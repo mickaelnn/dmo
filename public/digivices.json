@@ -1,0 +1,26 @@
+{
+  "note": "Catálogo de digivices. Edite para adicionar novos: id (único), name, image (assets/digivice/<slug>.png) e stats (texto padrão exibido no hover quando o usuário não informa uma %).",
+  "digivices": [
+    { "id": "courage", "name": "Digivice of Courage", "image": "assets/digivice/courage.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Courage · 4 slots" },
+    { "id": "friendship", "name": "Digivice of Friendship", "image": "assets/digivice/friendship.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Friendship · 4 slots" },
+    { "id": "love", "name": "Digivice of Love", "image": "assets/digivice/love.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Love · 4 slots" },
+    { "id": "purity", "name": "Digivice of Purity", "image": "assets/digivice/purity.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Purity · 4 slots" },
+    { "id": "knowledge", "name": "Digivice of Knowledge", "image": "assets/digivice/knowledge.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Knowledge · 4 slots" },
+    { "id": "sincerity", "name": "Digivice of Sincerity", "image": "assets/digivice/sincerity.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Sincerity · 4 slots" },
+    { "id": "hope", "name": "Digivice of Hope", "image": "assets/digivice/hope.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Hope · 4 slots" },
+    { "id": "light", "name": "Digivice of Light", "image": "assets/digivice/light.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Light · 4 slots" },
+    { "id": "kindness", "name": "Digivice of Kindness", "image": "assets/digivice/kindness.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Kindness · 4 slots" },
+    { "id": "fate", "name": "Digivice of Fate", "image": "assets/digivice/fate.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Fate · 4 slots" },
+    { "id": "miracles", "name": "Digivice of Miracles", "image": "assets/digivice/miracles.png", "stats": "10% Atributos de Digimon / 15% Elementos · Crest of Miracles · 4 slots" },
+    { "id": "dark-saint", "name": "D-Ark Limited Edition (Saint)", "image": "assets/digivice/dark-saint.png", "stats": "10% Atributos / 15% Elementos · SAINT-Aura · 4 slots" },
+    { "id": "dark-sakuya", "name": "D-Ark Limited Edition (Sakuya)", "image": "assets/digivice/dark-sakuya.png", "stats": "10% Atributos / 15% Elementos · SAKUYA-Aura · 4 slots" },
+    { "id": "dark-hazard", "name": "D-Ark Limited Edition (Hazard)", "image": "assets/digivice/dark-hazard.png", "stats": "10% Atributos / 15% Elementos · HAZARD-Aura · 4 slots" },
+    { "id": "dark-destiny", "name": "D-Ark Limited Edition (Destiny)", "image": "assets/digivice/dark-destiny.png", "stats": "10% Atributos / 15% Elementos · DESTINY-Aura · 4 slots" },
+    { "id": "dark-justice", "name": "D-Ark Limited Edition (Justice)", "image": "assets/digivice/dark-justice.png", "stats": "10% Atributos / 15% Elementos · JUSTICE-Aura · 4 slots" },
+    { "id": "xros-loader", "name": "Xros Loader", "image": "assets/digivice/xros-loader.png", "stats": "Até 15% Atributos / 20% Elementos (nível Max) · 6 slots" },
+    { "id": "fusion-loader", "name": "Fusion Loader", "image": "assets/digivice/fusion-loader.png", "stats": "Até 15% Atributos / 20% Elementos (nível Max) · 6 slots" },
+    { "id": "darkness-loader", "name": "Darkness Loader", "image": "assets/digivice/darkness-loader.png", "stats": "Até 15% Atributos / 20% Elementos (nível Max) · 6 slots" },
+    { "id": "first-digivice", "name": "First Digivice", "image": "assets/digivice/first-digivice.png", "stats": "% de Atributos/Elementos por nível · até 7 slots" },
+    { "id": "final-digivice", "name": "Final Digivice", "image": "assets/digivice/final-digivice.png", "stats": "% de Atributos/Elementos por nível · 8 slots · Efeito de conjunto: +2000 HP, +1000 HT, +10% CT, +1% Dano Final" }
+  ]
+}

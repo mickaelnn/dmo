@@ -4,35 +4,53 @@ import AssetImage from './AssetImage.vue'
 import Icon from './Icon.vue'
 import { useInventory } from '../composables/useInventory.js'
 import { useConfirm } from '../composables/useConfirm.js'
+import { useDigivices } from '../composables/useDigivices.js'
+import { fmtPct } from '../utils/format.js'
 
 const props = defineProps({
   digimons: { type: Object, default: () => ({}) },
   attributes: { type: Object, default: () => ({}) }
 })
 
-const { inv, toggleDigimon, hasKeyring, hasDigivice } = useInventory()
+const { inv, toggleDigimon, hasKeyring, bestKeyring, matchingDigivice } = useInventory()
 const { confirm } = useConfirm()
+const { byId: digiviceById } = useDigivices()
 
 const ASSET = { key: 'assets/keyring.png', dv: 'assets/digivice.png' }
+
+function dvInfo(info) {
+  const my = (info.attribute && info.element) ? matchingDigivice(info.attribute, info.element) : null
+  if (!my) return { hasDv: false, image: '', title: 'Sem digivice para esse atributo + elemento' }
+  const cat = digiviceById.value[my.type]
+  const name = cat?.name || my.type
+  const pcts = []
+  if (my.attrPct) pcts.push(`Atrib +${fmtPct(my.attrPct)}%`)
+  if (my.elemPct) pcts.push(`Elem +${fmtPct(my.elemPct)}%`)
+  const extra = pcts.length ? ' · ' + pcts.join(' / ') : (cat?.stats ? ' · ' + cat.stats : '')
+  return { hasDv: true, image: cat?.image || '', title: name + extra }
+}
 
 const ownedList = computed(() =>
   inv.digimons
     .filter(name => name in props.digimons)
     .map(name => {
       const info = props.digimons[name]
+      const best = bestKeyring(info.families || [])
+      const dv = dvInfo(info)
       return {
         name, info,
         color: props.attributes[info.attribute]?.color || 'var(--none)',
         initial: (name.match(/[A-Za-z]/) || ['?'])[0],
         hasKey: (info.families || []).some(f => hasKeyring(f)),
-        hasDv: !!(info.attribute && info.element && hasDigivice(info.attribute, info.element))
+        bestLevel: best ? best.level : null,
+        hasDv: dv.hasDv, dvImage: dv.image, dvTitle: dv.title
       }
     })
     .sort((a, b) => a.name.localeCompare(b.name))
 )
 
-// resumo: quantos dos possuídos já estão equipados
-const readyCount = computed(() => ownedList.value.filter(d => d.hasKey && d.hasDv).length)
+// resumo: quantos dos possuídos já têm chaveiro
+const readyCount = computed(() => ownedList.value.filter(d => d.hasKey).length)
 
 async function remove(name) {
   const ok = await confirm(`Remover "${name}" da sua coleção?`)
@@ -45,7 +63,7 @@ async function remove(name) {
     <div class="o-head">
       <h2>Digimons que possuo</h2>
       <span class="o-count">{{ ownedList.length }}</span>
-      <span v-if="ownedList.length" class="o-ready">{{ readyCount }} prontos (chaveiro + digivice)</span>
+      <span v-if="ownedList.length" class="o-ready">{{ readyCount }} com chaveiro Ghost</span>
     </div>
 
     <p v-if="!ownedList.length" class="empty">
@@ -69,13 +87,21 @@ async function remove(name) {
         </div>
         <span class="mini-name">{{ d.name }}</span>
         <div class="mini-status">
-          <span class="ms" :class="{ off: !d.hasKey }" :title="d.hasKey ? 'Tem o chaveiro +10' : 'Falta o chaveiro +10'">
+          <span class="ms" :class="{ off: !d.hasKey }" :title="d.hasKey ? `Chaveiro Ghost +${d.bestLevel}` : 'Sem chaveiro Ghost'">
             <AssetImage :src="ASSET.key" alt="chaveiro">
               <template #fallback><span class="ms-fb k">K</span></template>
             </AssetImage>
+            <span v-if="d.hasKey" class="ms-lv">+{{ d.bestLevel }}</span>
           </span>
-          <span class="ms" :class="{ off: !d.hasDv }" :title="d.hasDv ? 'Tem o digivice certo' : 'Falta o digivice certo'">
-            <AssetImage :src="ASSET.dv" alt="digivice">
+          <span class="ms" :class="{ off: !d.hasDv }" :title="d.dvTitle">
+            <AssetImage v-if="d.hasDv && d.dvImage" :src="d.dvImage" alt="digivice">
+              <template #fallback>
+                <AssetImage :src="ASSET.dv" alt="digivice">
+                  <template #fallback><span class="ms-fb d">D</span></template>
+                </AssetImage>
+              </template>
+            </AssetImage>
+            <AssetImage v-else :src="ASSET.dv" alt="digivice">
               <template #fallback><span class="ms-fb d">D</span></template>
             </AssetImage>
           </span>
@@ -134,9 +160,13 @@ async function remove(name) {
   display: flex; align-items: center; gap: 6px; margin-top: 2px;
   padding-top: 6px; border-top: 1px solid var(--line); width: 100%; justify-content: center;
 }
-.ms { display: flex; align-items: center; justify-content: center; transition: opacity .15s, filter .15s; }
+.ms { position: relative; display: flex; align-items: center; justify-content: center; transition: opacity .15s, filter .15s; }
 .ms :deep(img) { width: 18px; height: 18px; object-fit: contain; }
 .ms.off { opacity: .25; filter: grayscale(1); }
+.ms-lv {
+  font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 11px;
+  color: var(--accent); margin-left: 2px;
+}
 .ms-fb {
   width: 18px; height: 18px; border-radius: 5px; display: flex;
   align-items: center; justify-content: center; font-size: 10px; font-weight: 700; color: #0b0e1a;
