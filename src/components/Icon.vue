@@ -17,7 +17,10 @@ const ICONS = {
   progress: '<path d="M5 21V11"/><path d="M12 21V4"/><path d="M19 21v-7"/><path d="M3 21h18"/>',
   inventory: '<path d="M21 8 12 3 3 8v8l9 5 9-5Z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/>',
   target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.5"/><circle cx="12" cy="12" r="1"/>',
-  seal: '<circle cx="12" cy="8.5" r="5.5"/><path d="M8.5 13 7 21l5-2.5L17 21l-1.5-8"/>'
+  seal: '<circle cx="12" cy="8.5" r="5.5"/><path d="M8.5 13 7 21l5-2.5L17 21l-1.5-8"/>',
+  help: '<circle cx="12" cy="12" r="9"/><path d="M9.6 9.2a2.4 2.4 0 1 1 3.3 2.6c-.7.4-1.1.9-1.1 1.7"/><path d="M12 17h.01"/>',
+  mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/>',
+  discord: '<path d="M8 12h.01"/><path d="M16 12h.01"/><path d="M7.5 17c-1.5-.3-2.8-1-3.5-2 0-4 1-6.5 2.5-8 1-.6 2-.9 2.5-1l.7 1.6a11 11 0 0 1 4.6 0L15 6c.5.1 1.5.4 2.5 1C19 8.5 20 11 20 15c-.7 1-2 1.7-3.5 2l-.9-1.6M8.5 15.5c2 1 5 1 7 0"/>'
 }
 </script>
 

@@ -14,6 +14,7 @@ import OwnedDigimons from './components/OwnedDigimons.vue'
 import CoveragePanel from './components/CoveragePanel.vue'
 import DigimonCard from './components/DigimonCard.vue'
 import SealMasterPanel from './components/SealMasterPanel.vue'
+import HelpPanel from './components/HelpPanel.vue'
 import BackupControls from './components/BackupControls.vue'
 import PortfolioFooter from './components/PortfolioFooter.vue'
 import DataLoader from './components/DataLoader.vue'
@@ -148,6 +149,11 @@ onMounted(load)
       <!-- ABA: SELOS -->
       <div v-show="view === 'selos'" class="tabview">
         <SealMasterPanel />
+      </div>
+
+      <!-- ABA: AJUDA / FAQ -->
+      <div v-show="view === 'ajuda'" class="tabview">
+        <HelpPanel />
       </div>
 
       <PortfolioFooter />

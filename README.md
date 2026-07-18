@@ -64,6 +64,13 @@ sem banner de consentimento). Falta só colar o seu token:
 
 Enquanto o token não for preenchido, o script simplesmente não coleta nada (não quebra o site).
 
+## Manutenção do FAQ (importante)
+
+O FAQ fica na aba **Ajuda** (`src/components/HelpPanel.vue`), no array `faqs`.
+**Sempre que uma funcionalidade maior mudar** (nova aba, mudança de fluxo, remoção de
+recurso), atualize o texto correspondente no FAQ para não ficar desatualizado.
+
+
 ## Editando os dados
 
 Edite **`public/data.json`**. Cada Digimon declara `image`, `attribute`, `element`, `rank`
