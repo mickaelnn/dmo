@@ -139,6 +139,28 @@
     }
   },
   "digimons": {
+    "Quantumon": {
+      "image": "assets/digimon/quantumon.png",
+      "attribute": "Da",
+      "element": "Water",
+      "rank": "U",
+      "families": [
+        "DS",
+        "UK",
+        "TBD"
+      ]
+    },
+    "Apollomon": {
+      "image": "assets/digimon/apollomon.png",
+      "attribute": "Va",
+      "element": "Fire",
+      "rank": "U",
+      "families": [
+        "VB",
+        "DR",
+        "NSP"
+      ]
+    },
     "Alphamon Ouryuken (Extreme)": {
       "image": "assets/digimon/alphamon-ouryuken.png",
       "attribute": "Va",
