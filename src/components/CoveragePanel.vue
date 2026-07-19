@@ -8,7 +8,9 @@ import { useInventory } from '../composables/useInventory.js'
 
 const props = defineProps({
   digimons: { type: Object, default: () => ({}) },
-  families: { type: Object, default: () => ({}) }
+  families: { type: Object, default: () => ({}) },
+  attributes: { type: Object, default: () => ({}) },
+  elements: { type: Object, default: () => ({}) }
 })
 
 const { hasKeyring, bestKeyring, ownsDigimon } = useInventory()
@@ -168,13 +170,20 @@ watch([scope, listMode], () => { selected.value = null })
 
       <p v-if="!selectedDigimons.length" class="done">Nenhum digimon relacionado a este chaveiro nesta base.</p>
       <div v-else class="mini-grid">
-        <div class="mini" v-for="d in selectedDigimons" :key="d.name" :title="d.name">
+        <div class="mini" v-for="d in selectedDigimons" :key="d.name" :title="d.name"
+             :style="{ '--attr': attributes[d.info.attribute]?.color || 'var(--none)' }">
           <div class="mini-img">
             <AssetImage :src="d.info.image" :alt="d.name">
               <template #fallback><span class="mini-fb">{{ (d.name.match(/[A-Za-z]/) || ['?'])[0] }}</span></template>
             </AssetImage>
           </div>
           <span class="mini-name">{{ d.name }}</span>
+          <span v-if="attributes[d.info.attribute]" class="mini-attr" :style="{ '--c': attributes[d.info.attribute].color }">
+            <AssetImage :src="attributes[d.info.attribute].image" alt="">
+              <template #fallback><span class="mini-dot" :style="{ background: attributes[d.info.attribute].color }"></span></template>
+            </AssetImage>
+            {{ attributes[d.info.attribute].label }}
+          </span>
         </div>
       </div>
     </ModalDialog>
@@ -242,10 +251,12 @@ watch([scope, listMode], () => { selected.value = null })
 }
 .d-title-row b { color: var(--text); font-size: 15px; }
 .dcount { color: var(--muted); font-size: 12px; }
-.mini-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 10px; }
+.mini-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 10px; }
 .mini {
   display: flex; flex-direction: column; align-items: center; gap: 6px;
-  background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 8px 6px;
+  background: var(--card); border: 1px solid var(--line);
+  border-top: 3px solid var(--attr, var(--none));
+  border-radius: 8px; padding: 8px 6px;
 }
 .mini-img { width: 56px; height: 56px; display: flex; align-items: center; justify-content: center; }
 .mini-img :deep(img) { max-width: 56px; max-height: 56px; }
@@ -253,5 +264,16 @@ watch([scope, listMode], () => { selected.value = null })
   width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
   font-family: 'Rajdhani', sans-serif; font-weight: 700; font-size: 20px; color: var(--muted); border: 2px dashed var(--line);
 }
-.mini-name { font-size: 11px; text-align: center; line-height: 1.25; color: var(--text); }
+.mini-name {
+  font-size: 11px; text-align: center; line-height: 1.25; color: var(--text);
+  min-height: 28px; display: flex; align-items: center; justify-content: center;
+}
+.mini-attr {
+  display: inline-flex; align-items: center; gap: 4px; margin-top: auto;
+  font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .3px;
+  color: var(--c, var(--muted)); border: 1px solid var(--c, var(--line));
+  border-radius: 4px; padding: 1px 6px; background: rgba(0, 0, 0, .2);
+}
+.mini-attr :deep(img) { width: 12px; height: 12px; object-fit: contain; }
+.mini-dot { width: 8px; height: 8px; border-radius: 2px; transform: rotate(45deg); }
 </style>

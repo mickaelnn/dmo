@@ -83,14 +83,8 @@ const dvTitle = computed(() => {
     </div>
 
     <div class="cardfoot">
+      <span class="owned-tag" :class="{ off: !owned }">{{ owned ? 'Possuído' : 'Não possuo' }}</span>
       <div class="slots">
-        <span class="sicon" :class="{ off: !hasKey }"
-              :title="bestKey ? `Chaveiro Ghost ${bestKey.family} +${bestKey.level} — ${krStatsText(bestKey.level)}` : 'Sem chaveiro Ghost'">
-          <AssetImage :src="ASSET.key" alt="chaveiro">
-            <template #fallback><span class="sfb k">K</span></template>
-          </AssetImage>
-          <span v-if="bestKey" class="lvtag">+{{ bestKey.level }}</span>
-        </span>
         <span class="sicon" :class="{ off: !hasDv }" :title="dvTitle">
           <!-- se tenho o digivice: sprite dele (fallback pro genérico) -->
           <AssetImage v-if="hasDv && dvImage" :src="dvImage" alt="digivice">
@@ -104,8 +98,14 @@ const dvTitle = computed(() => {
             <template #fallback><span class="sfb d">D</span></template>
           </AssetImage>
         </span>
+        <span class="sicon" :class="{ off: !hasKey }"
+              :title="bestKey ? `Chaveiro Ghost ${bestKey.family} +${bestKey.level} — ${krStatsText(bestKey.level)}` : 'Sem chaveiro Ghost'">
+          <AssetImage :src="ASSET.key" alt="chaveiro">
+            <template #fallback><span class="sfb k">K</span></template>
+          </AssetImage>
+          <span v-if="bestKey" class="lvtag">+{{ bestKey.level }}</span>
+        </span>
       </div>
-      <span class="owned-tag" :class="{ off: !owned }">{{ owned ? 'Possuído' : 'Não possuo' }}</span>
     </div>
   </div>
 </template>

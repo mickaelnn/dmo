@@ -87,12 +87,6 @@ async function remove(name) {
         </div>
         <span class="mini-name">{{ d.name }}</span>
         <div class="mini-status">
-          <span class="ms" :class="{ off: !d.hasKey }" :title="d.hasKey ? `Chaveiro Ghost +${d.bestLevel}` : 'Sem chaveiro Ghost'">
-            <AssetImage :src="ASSET.key" alt="chaveiro">
-              <template #fallback><span class="ms-fb k">K</span></template>
-            </AssetImage>
-            <span v-if="d.hasKey" class="ms-lv">+{{ d.bestLevel }}</span>
-          </span>
           <span class="ms" :class="{ off: !d.hasDv }" :title="d.dvTitle">
             <AssetImage v-if="d.hasDv && d.dvImage" :src="d.dvImage" alt="digivice">
               <template #fallback>
@@ -104,6 +98,12 @@ async function remove(name) {
             <AssetImage v-else :src="ASSET.dv" alt="digivice">
               <template #fallback><span class="ms-fb d">D</span></template>
             </AssetImage>
+          </span>
+          <span class="ms" :class="{ off: !d.hasKey }" :title="d.hasKey ? `Chaveiro Ghost +${d.bestLevel}` : 'Sem chaveiro Ghost'">
+            <AssetImage :src="ASSET.key" alt="chaveiro">
+              <template #fallback><span class="ms-fb k">K</span></template>
+            </AssetImage>
+            <span v-if="d.hasKey" class="ms-lv">+{{ d.bestLevel }}</span>
           </span>
         </div>
       </div>
@@ -155,9 +155,12 @@ async function remove(name) {
   justify-content: center; font-family: 'Rajdhani', sans-serif; font-weight: 700;
   font-size: 20px; color: var(--attr, var(--muted)); border: 2px dashed var(--attr, var(--line)); opacity: .85;
 }
-.mini-name { font-size: 11px; text-align: center; line-height: 1.25; color: var(--text); }
+.mini-name {
+  font-size: 11px; text-align: center; line-height: 1.25; color: var(--text);
+  min-height: 28px; display: flex; align-items: center; justify-content: center;
+}
 .mini-status {
-  display: flex; align-items: center; gap: 6px; margin-top: 2px;
+  display: flex; align-items: center; gap: 6px; margin-top: auto;
   padding-top: 6px; border-top: 1px solid var(--line); width: 100%; justify-content: center;
 }
 .ms { position: relative; display: flex; align-items: center; justify-content: center; transition: opacity .15s, filter .15s; }

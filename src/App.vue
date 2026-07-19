@@ -130,6 +130,8 @@ onMounted(() => { load(); loadDigivices() })
         <CoveragePanel
           :digimons="digimons"
           :families="families"
+          :attributes="attributes"
+          :elements="elements"
         />
       </div>
 
