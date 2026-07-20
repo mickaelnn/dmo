@@ -10,6 +10,8 @@ const tabs = [
   { id: 'digimons', label: 'Digimons', icon: 'grid' },
   { id: 'progresso', label: 'Progresso', icon: 'progress' },
   { id: 'selos', label: 'Selos', icon: 'seal' },
+  { id: 'dunit', label: 'D-Unit', icon: 'target' },
+  { id: 'archive', label: 'Archive', icon: 'archive' },
   { id: 'inventario', label: 'Inventário', icon: 'inventory' },
   { id: 'ajuda', label: 'Ajuda', icon: 'help' }
 ]

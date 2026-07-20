@@ -15,6 +15,8 @@ import OwnedDigimons from './components/OwnedDigimons.vue'
 import CoveragePanel from './components/CoveragePanel.vue'
 import DigimonCard from './components/DigimonCard.vue'
 import SealMasterPanel from './components/SealMasterPanel.vue'
+import DUnitPanel from './components/DUnitPanel.vue'
+import DigimonArchive from './components/DigimonArchive.vue'
 import HelpPanel from './components/HelpPanel.vue'
 import BackupControls from './components/BackupControls.vue'
 import PortfolioFooter from './components/PortfolioFooter.vue'
@@ -151,6 +153,16 @@ onMounted(() => { load(); loadDigivices() })
       <!-- ABA: SELOS -->
       <div v-show="view === 'selos'" class="tabview">
         <SealMasterPanel />
+      </div>
+
+      <!-- ABA: D-UNIT -->
+      <div v-show="view === 'dunit'" class="tabview">
+        <DUnitPanel />
+      </div>
+
+      <!-- ABA: DIGIMON ARCHIVE -->
+      <div v-show="view === 'archive'" class="tabview">
+        <DigimonArchive />
       </div>
 
       <!-- ABA: AJUDA / FAQ -->

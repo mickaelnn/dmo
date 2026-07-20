@@ -6,3 +6,4 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 legacy-index.html.bak
+merge_forms.cjs

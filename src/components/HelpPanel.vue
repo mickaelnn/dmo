@@ -19,6 +19,14 @@ const faqs = [
     a: 'Uma barra da sua coleção (X de Y digimons), a lista dos digimons que você possui — com o nível do Chaveiro Ghost de cada um — e o painel “Cobertura de chaveiro & próximos passos”, com a barra de quantos digimons já têm chaveiro e as listas “Que faltam / Que tenho”. Clique num chaveiro para ver quais digimons dependem dele. Você pode calcular sobre todos os digimons ou só os que possui.'
   },
   {
+    q: 'Aba Digimon Archive — para que serve?',
+    a: 'É onde você cadastra suas linhas evolutivas (digi-ovos): marca as que possui, o nível (Obtido / 110 / Máx) e se estão transcendidas. O nível Máx vem do rank da linha (140, 150 se SSS/SSS+, 160 se rank U). Esse cadastro alimenta os cálculos da aba D-Unit. Tem busca e filtro por Todas / Que tenho / Que faltam.'
+  },
+  {
+    q: 'Aba D-Unit — como funciona?',
+    a: 'A partir do que você cadastrou no Archive, o site calcula automaticamente os 4 brackets de cada pack (obtidos, nível total, transcendidos) e soma tudo no "Efeito Total de Coleta". Como o progresso é por linha, ajustar um digi-ovo no Archive atualiza todos os packs onde ele aparece. Busque por nome, digi-ovo ou digimon, filtre por status/digi-ovo e por Geral / Obtidos / Não obtidos.'
+  },
+  {
     q: 'Aba Selos — como marcar?',
     a: 'Os selos ficam agrupados por status (AT, HP, CT...). Em cada selo, escolha no seletor o nível que você já alcançou (Fechado → Normal → Bronze → Prata → Ouro → Platina → Mestre) — o valor e os totais recalculam na hora. No topo há a tabela de totais por status (seu total atual vs. o máximo possível). Use os filtros por status, a busca e o “Só os que tenho”.'
   },

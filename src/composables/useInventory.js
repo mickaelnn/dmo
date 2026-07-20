@@ -9,6 +9,8 @@ function loadInv() {
   } catch (e) { /* ignora storage corrompido */ }
 
   const seals = (o.seals && typeof o.seals === 'object' && !Array.isArray(o.seals)) ? o.seals : {}
+  // progresso do D-Unit por linha: { lineId: { stage, transc } }
+  const dunitLines = (o.dunitLines && typeof o.dunitLines === 'object' && !Array.isArray(o.dunitLines)) ? o.dunitLines : {}
 
   // keyrings agora é um mapa { família: nível(0..15) }.
   // Migração: se vier no formato antigo (array de famílias), assume nível +10.
@@ -29,7 +31,8 @@ function loadInv() {
     keyrings,
     digivices,
     digimons: Array.isArray(o.digimons) ? o.digimons : [],
-    seals // mapa sealId -> nível atual (0..6)
+    seals, // mapa sealId -> nível atual (0..6)
+    dunitLines // mapa lineId -> { stage, transc }
   }
 }
 
@@ -106,13 +109,28 @@ export function useInventory() {
     else delete inv.seals[sealId]
   }
 
+  // ---- D-Unit (progresso por linha) ----
+  // stage: 'no' (não obtido) | 'ob' (obtido) | 'l110' | 'max'; transc: bool
+  function getLine(lineId) { return inv.dunitLines[lineId] || { stage: 'no', transc: false } }
+  function setLineStage(lineId, stage) {
+    const cur = getLine(lineId)
+    if (stage === 'no') { delete inv.dunitLines[lineId] }
+    else inv.dunitLines[lineId] = { stage, transc: stage === 'no' ? false : cur.transc }
+  }
+  function setLineTransc(lineId, transc) {
+    const cur = getLine(lineId)
+    if (cur.stage === 'no' && !transc) return
+    inv.dunitLines[lineId] = { stage: cur.stage === 'no' ? 'ob' : cur.stage, transc }
+  }
+
   // cópia dos dados atuais (para exportar backup)
   function snapshot() {
     return {
       keyrings: { ...inv.keyrings },
       digivices: [...inv.digivices],
       digimons: [...inv.digimons],
-      seals: { ...inv.seals }
+      seals: { ...inv.seals },
+      dunitLines: JSON.parse(JSON.stringify(inv.dunitLines))
     }
   }
 
@@ -128,6 +146,7 @@ export function useInventory() {
       ? data.digivices.filter(d => d && typeof d === 'object' && d.type) : []
     inv.digimons = Array.isArray(data?.digimons) ? data.digimons : []
     inv.seals = (data?.seals && typeof data.seals === 'object' && !Array.isArray(data.seals)) ? data.seals : {}
+    inv.dunitLines = (data?.dunitLines && typeof data.dunitLines === 'object' && !Array.isArray(data.dunitLines)) ? data.dunitLines : {}
   }
 
   return {
@@ -136,6 +155,7 @@ export function useInventory() {
     addDigivice, removeDigivice, hasDigivice, matchingDigivice,
     toggleDigimon, ownsDigimon,
     getSealTier, setSealTier,
+    getLine, setLineStage, setLineTransc,
     snapshot, replaceAll
   }
 }

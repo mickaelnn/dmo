@@ -1,0 +1,2077 @@
+{
+  "note": "D-Unit. LINES = digi-ovos/linhas (extraídas do wiki Mercenary Digimon; lista não 100% completa). Preencha rank (U=160, SSS/SSS+=150, demais=140). PACKS = grupos: members referencia as linhas (line=id, count=qtd digimons, name=rótulo); brackets: type=obtidos|nivel|transcendidos, need, stat, value, unit. O usuário informa por linha (no Archive) e o site calcula.",
+  "lines": [
+    {
+      "id": "agumon-classic",
+      "name": "Agumon (Classic)",
+      "rank": "",
+      "rookie": "Agumon (Classic)",
+      "forms": [
+        "Agumon (Classic)",
+        "Greymon",
+        "MetalGreymon",
+        "WarGreymon",
+        "VictoryGreymon",
+        "Omnimon",
+        "Omegamon - Merciful Mode"
+      ]
+    },
+    {
+      "id": "blackagumon-omegamon-zwart-d",
+      "name": "BlackAgumon [Omegamon Zwart D]",
+      "rank": "",
+      "rookie": "BlackAgumon",
+      "forms": [
+        "BlackAgumon",
+        "BlackGreymon",
+        "BlackMetalGreymon",
+        "BlackWarGreymon",
+        "Omegamon Zwart",
+        "Omegamon Zwart D"
+      ]
+    },
+    {
+      "id": "blackagumon-zeedmillenniummon",
+      "name": "BlackAgumon [ZeedMillenniummon]",
+      "rank": "",
+      "rookie": "BlackAgumon",
+      "forms": [
+        "BlackAgumon",
+        "DarkTyrannomon",
+        "MetalTyrannomon",
+        "Machinedramon",
+        "Millenniummon",
+        "Moon Millenniumon",
+        "ZeedMillenniummon"
+      ]
+    },
+    {
+      "id": "arkadimon-rookie",
+      "name": "Arkadimon (Rookie)",
+      "rank": "",
+      "rookie": "Arkadimon (Rookie)",
+      "forms": [
+        "Arkadimon (Rookie)",
+        "Arkadimon (Champion)",
+        "Arkadimon (Ultimate)",
+        "Arkadimon (Mega)"
+      ]
+    },
+    {
+      "id": "armadillomon-submarimon",
+      "name": "Armadillomon [Submarimon]",
+      "rank": "",
+      "rookie": "Armadillomon",
+      "forms": [
+        "Armadillomon",
+        "Ankylomon",
+        "Shakkoumon",
+        "Vikemon",
+        "Submarimon"
+      ]
+    },
+    {
+      "id": "bearmon",
+      "name": "Bearmon",
+      "rank": "",
+      "rookie": "Bearmon",
+      "forms": [
+        "Bearmon",
+        "Grizzlymon",
+        "GrapLeomon",
+        "DinoTigermon",
+        "BanchouLeomon",
+        "Marsmon"
+      ]
+    },
+    {
+      "id": "betamon",
+      "name": "Betamon",
+      "rank": "",
+      "rookie": "Betamon",
+      "forms": [
+        "Betamon",
+        "Seadramon",
+        "MegaSeadramon",
+        "MetalSeadramon",
+        "GigaSeadramon",
+        "Apocalymon"
+      ]
+    },
+    {
+      "id": "biyomon",
+      "name": "Biyomon",
+      "rank": "",
+      "rookie": "Biyomon",
+      "forms": [
+        "Biyomon",
+        "Birdramon",
+        "Garudamon",
+        "Phoenixmon",
+        "Ornismon"
+      ]
+    },
+    {
+      "id": "candlemon",
+      "name": "Candlemon",
+      "rank": "",
+      "rookie": "Candlemon",
+      "forms": [
+        "Candlemon",
+        "Wizardmon",
+        "Mystimon",
+        "Dynasmon"
+      ]
+    },
+    {
+      "id": "commandramon",
+      "name": "CommanDramon",
+      "rank": "",
+      "rookie": "CommanDramon",
+      "forms": [
+        "CommanDramon",
+        "SealsDramon",
+        "TankDramon",
+        "DarkDramon",
+        "Chaosmon"
+      ]
+    },
+    {
+      "id": "demidevimon-boltmon",
+      "name": "DemiDevimon [Boltmon]",
+      "rank": "",
+      "rookie": "DemiDevimon",
+      "forms": [
+        "DemiDevimon",
+        "Bakemon",
+        "Pumpkinmon",
+        "Boltmon"
+      ]
+    },
+    {
+      "id": "demidevimon-boltboutamon",
+      "name": "DemiDevimon [Boltboutamon]",
+      "rank": "",
+      "rookie": "DemiDevimon",
+      "forms": [
+        "DemiDevimon",
+        "Devimon",
+        "Myotismon",
+        "VenomMyotismon",
+        "MaloMyotismon",
+        "Boltboutamon"
+      ]
+    },
+    {
+      "id": "demidevimon-boltboutamon-2",
+      "name": "DemiDevimon [Boltboutamon]",
+      "rank": "",
+      "rookie": "DemiDevimon",
+      "forms": [
+        "DemiDevimon",
+        "Soulmon",
+        "Phantomon",
+        "Piedmon",
+        "ChaosPiedmon",
+        "Apocalymon",
+        "Boltboutamon"
+      ]
+    },
+    {
+      "id": "demimeramon",
+      "name": "DemiMeramon",
+      "rank": "",
+      "rookie": "DemiMeramon",
+      "forms": [
+        "DemiMeramon",
+        "Meramon",
+        "SkullMeramon",
+        "Boltmon",
+        "Gankoomon"
+      ]
+    },
+    {
+      "id": "deputymon",
+      "name": "Deputymon",
+      "rank": "",
+      "rookie": "Deputymon",
+      "forms": [
+        "Deputymon",
+        "SuperStarmon",
+        "Justimon",
+        "Fujinmon"
+      ]
+    },
+    {
+      "id": "dobermon",
+      "name": "Dobermon",
+      "rank": "",
+      "rookie": "Dobermon",
+      "forms": [
+        "Dobermon",
+        "Cerberumon",
+        "Anubismon"
+      ]
+    },
+    {
+      "id": "doggymon",
+      "name": "Doggymon",
+      "rank": "",
+      "rookie": "Doggymon",
+      "forms": [
+        "Doggymon",
+        "Cerberumon",
+        "Anubismon"
+      ]
+    },
+    {
+      "id": "dokunemon",
+      "name": "Dokunemon",
+      "rank": "",
+      "rookie": "Dokunemon",
+      "forms": [
+        "Dokunemon",
+        "Dokugumon",
+        "Archnemon",
+        "Parasimon"
+      ]
+    },
+    {
+      "id": "dorumon-dexmon",
+      "name": "Dorumon [Dexmon]",
+      "rank": "",
+      "rookie": "Dorumon",
+      "forms": [
+        "Dorumon",
+        "DexDorugamon",
+        "DexDoruGreymon",
+        "DexDorugoramon",
+        "Dexmon"
+      ]
+    },
+    {
+      "id": "dorumon-dorugoramon",
+      "name": "Dorumon [Dorugoramon]",
+      "rank": "",
+      "rookie": "Dorumon",
+      "forms": [
+        "Dorumon",
+        "Dorugamon",
+        "DoruGreymon",
+        "Dorugoramon"
+      ]
+    },
+    {
+      "id": "dorumon-alphamon-ouryuken",
+      "name": "Dorumon [Alphamon Ouryuken]",
+      "rank": "",
+      "rookie": "Dorumon",
+      "forms": [
+        "Dorumon",
+        "ReptileDramon",
+        "Grademon",
+        "Alphamon",
+        "Alphamon Ouryuken"
+      ]
+    },
+    {
+      "id": "dracmon",
+      "name": "Dracmon",
+      "rank": "",
+      "rookie": "Dracmon",
+      "forms": [
+        "Dracmon",
+        "Sangloupmon",
+        "Matadormon",
+        "GranDracmon"
+      ]
+    },
+    {
+      "id": "dracomon-examon",
+      "name": "Dracomon [Examon]",
+      "rank": "",
+      "rookie": "Dracomon",
+      "forms": [
+        "Dracomon",
+        "Coredramon (Blue)",
+        "Wingdramon",
+        "Slayerdramon",
+        "Examon"
+      ]
+    },
+    {
+      "id": "dracomon-examon-2",
+      "name": "Dracomon [Examon]",
+      "rank": "",
+      "rookie": "Dracomon",
+      "forms": [
+        "Dracomon",
+        "Coredramon (Green)",
+        "Groundramon",
+        "Brakedramon",
+        "Examon"
+      ]
+    },
+    {
+      "id": "drimogemon",
+      "name": "Drimogemon",
+      "rank": "",
+      "rookie": "Drimogemon",
+      "forms": [
+        "Drimogemon",
+        "Digmon"
+      ]
+    },
+    {
+      "id": "giromon",
+      "name": "Giromon",
+      "rank": "",
+      "rookie": "Giromon",
+      "forms": [
+        "Giromon",
+        "HiAndromon",
+        "Craniamon"
+      ]
+    },
+    {
+      "id": "elecmon-chaosmon",
+      "name": "Elecmon [Chaosmon]",
+      "rank": "",
+      "rookie": "Elecmon",
+      "forms": [
+        "Elecmon",
+        "Leomon",
+        "Panjyamon",
+        "SaberLeomon",
+        "BanchouLeomon",
+        "Chaosmon"
+      ]
+    },
+    {
+      "id": "fanbeemon",
+      "name": "FanBeemon",
+      "rank": "",
+      "rookie": "FanBeemon",
+      "forms": [
+        "FanBeemon",
+        "Waspmon",
+        "CannonBeemon",
+        "TigerVespamon"
+      ]
+    },
+    {
+      "id": "gabumon-omnimon",
+      "name": "Gabumon [Omnimon]",
+      "rank": "",
+      "rookie": "Gabumon",
+      "forms": [
+        "Gabumon",
+        "Garurumon",
+        "WereGarurumon",
+        "MetalGarurumon",
+        "Z'dGarurumon",
+        "Omnimon"
+      ]
+    },
+    {
+      "id": "blackgabumon",
+      "name": "BlackGabumon",
+      "rank": "",
+      "rookie": "BlackGabumon",
+      "forms": [
+        "BlackGabumon",
+        "BlackGarurumon",
+        "BlackWereGarurumon",
+        "BlackMetalGarurumon",
+        "Omegamon Zwart",
+        "Omegamon Zwart D"
+      ]
+    },
+    {
+      "id": "gazimon-zeedmillenniummon",
+      "name": "Gazimon [ZeedMillenniummon]",
+      "rank": "",
+      "rookie": "Gazimon",
+      "forms": [
+        "Gazimon",
+        "Deltamon",
+        "Chimairamon",
+        "Millenniummon",
+        "Moon Millenniumon",
+        "ZeedMillenniummon"
+      ]
+    },
+    {
+      "id": "gazimon-gulfmon",
+      "name": "Gazimon [Gulfmon]",
+      "rank": "",
+      "rookie": "Gazimon",
+      "forms": [
+        "Gazimon",
+        "Devidramon",
+        "Mephismon",
+        "Gulfmon"
+      ]
+    },
+    {
+      "id": "goblimon",
+      "name": "Goblimon",
+      "rank": "",
+      "rookie": "Goblimon",
+      "forms": [
+        "Goblimon",
+        "Ogremon",
+        "Etemon",
+        "MetalEtemon",
+        "KingEtemon"
+      ]
+    },
+    {
+      "id": "gomamon-rusttyrannomon",
+      "name": "Gomamon [RustTyrannomon]",
+      "rank": "",
+      "rookie": "Gomamon",
+      "forms": [
+        "Gomamon",
+        "Ikkakumon",
+        "Zudomon",
+        "Vikemon",
+        "Plesiomon",
+        "Aegisdramon",
+        "RustTyrannomon"
+      ]
+    },
+    {
+      "id": "gotsumon",
+      "name": "Gotsumon",
+      "rank": "",
+      "rookie": "Gotsumon",
+      "forms": [
+        "Gotsumon",
+        "Icemon",
+        "Meteormon",
+        "MetalEtemon",
+        "KingEtemon"
+      ]
+    },
+    {
+      "id": "guilmon-gallantmon-crimson-mode-awaken",
+      "name": "Guilmon [Gallantmon (Crimson Mode) (Awaken)]",
+      "rank": "",
+      "rookie": "Guilmon",
+      "forms": [
+        "Guilmon",
+        "Growlmon",
+        "WarGrowlmon",
+        "Gallantmon",
+        "Gallantmon (Crimson Mode)",
+        "Gallantmon (Shin)",
+        "Gallantmon (Crimson Mode) (Awaken)"
+      ]
+    },
+    {
+      "id": "hagurumon-craniamon",
+      "name": "Hagurumon [Craniamon]",
+      "rank": "",
+      "rookie": "Hagurumon",
+      "forms": [
+        "Hagurumon",
+        "Gardromon",
+        "Andromon",
+        "HiAndromon",
+        "Craniamon"
+      ]
+    },
+    {
+      "id": "hagurumon-apocalymon",
+      "name": "Hagurumon [Apocalymon]",
+      "rank": "",
+      "rookie": "Hagurumon",
+      "forms": [
+        "Hagurumon",
+        "MechaNorimon",
+        "Megadramon",
+        "Machinedramon",
+        "Chaosdramon",
+        "Apocalymon"
+      ]
+    },
+    {
+      "id": "hawkmon-flybeemon",
+      "name": "Hawkmon [Flybeemon]",
+      "rank": "",
+      "rookie": "Hawkmon",
+      "forms": [
+        "Hawkmon",
+        "Aquilamon",
+        "Silphymon",
+        "Phoenixmon",
+        "Valdurmon",
+        "Halsemon",
+        "Toucanmon",
+        "Flybeemon"
+      ]
+    },
+    {
+      "id": "impmon-beelzemon-blast-mode-awaken",
+      "name": "Impmon [Beelzemon (Blast Mode) (Awaken)]",
+      "rank": "",
+      "rookie": "Impmon",
+      "forms": [
+        "Impmon",
+        "IceDevimon",
+        "SkullSatamon",
+        "Beelzemon",
+        "Beelzemon (Blast Mode)",
+        "Beelzemon (Blast Mode) (Awaken)"
+      ]
+    },
+    {
+      "id": "kamemon",
+      "name": "Kamemon",
+      "rank": "",
+      "rookie": "Kamemon",
+      "forms": [
+        "Kamemon",
+        "Gwappamon",
+        "Shawujingmon",
+        "JumboGamemon"
+      ]
+    },
+    {
+      "id": "keramon",
+      "name": "Keramon",
+      "rank": "",
+      "rookie": "Keramon",
+      "forms": [
+        "Keramon",
+        "Chrysalimon",
+        "Infermon",
+        "Diablomon",
+        "Armageddemon"
+      ]
+    },
+    {
+      "id": "kiwimon",
+      "name": "Kiwimon",
+      "rank": "",
+      "rookie": "Kiwimon",
+      "forms": [
+        "Kiwimon",
+        "Shinduramon"
+      ]
+    },
+    {
+      "id": "blossommon",
+      "name": "Blossommon",
+      "rank": "",
+      "rookie": "Blossommon",
+      "forms": [
+        "Blossommon",
+        "Gryphonmon"
+      ]
+    },
+    {
+      "id": "kokuwamon",
+      "name": "Kokuwamon",
+      "rank": "",
+      "rookie": "Kokuwamon",
+      "forms": [
+        "Kokuwamon",
+        "Thundermon",
+        "Mamemon",
+        "BigMamemon",
+        "PrinceMamemon"
+      ]
+    },
+    {
+      "id": "kotemon-lordknightmon",
+      "name": "Kotemon [LordKnightmon]",
+      "rank": "",
+      "rookie": "Kotemon",
+      "forms": [
+        "Kotemon",
+        "Gladimon",
+        "Knightmon",
+        "LordKnightmon"
+      ]
+    },
+    {
+      "id": "kotemon-zanbamon",
+      "name": "Kotemon [Zanbamon]",
+      "rank": "",
+      "rookie": "Kotemon",
+      "forms": [
+        "Kotemon",
+        "Musyamon",
+        "Asuramon",
+        "Zanbamon"
+      ]
+    },
+    {
+      "id": "kunemon",
+      "name": "Kunemon",
+      "rank": "",
+      "rookie": "Kunemon",
+      "forms": [
+        "Kunemon",
+        "Flymon",
+        "Okuwamon",
+        "GranKuwagamon"
+      ]
+    },
+    {
+      "id": "lopmon",
+      "name": "Lopmon",
+      "rank": "",
+      "rookie": "Lopmon",
+      "forms": [
+        "Lopmon",
+        "Wendigomon",
+        "Antylamon",
+        "Cherubimon"
+      ]
+    },
+    {
+      "id": "turuiemon",
+      "name": "Turuiemon",
+      "rank": "",
+      "rookie": "Turuiemon",
+      "forms": [
+        "Turuiemon",
+        "Antylamon (Deva)",
+        "Cherubimon (White)"
+      ]
+    },
+    {
+      "id": "monodramon",
+      "name": "Monodramon",
+      "rank": "",
+      "rookie": "Monodramon",
+      "forms": [
+        "Monodramon",
+        "Strikedramon",
+        "Cyberdramon",
+        "Justimon",
+        "Fujinmon"
+      ]
+    },
+    {
+      "id": "mushroomon",
+      "name": "Mushroomon",
+      "rank": "",
+      "rookie": "Mushroomon",
+      "forms": [
+        "Mushroomon",
+        "Woodmon",
+        "Argomon (Ultimate)",
+        "Argomon (Mega)"
+      ]
+    },
+    {
+      "id": "otamamon",
+      "name": "Otamamon",
+      "rank": "",
+      "rookie": "Otamamon",
+      "forms": [
+        "Otamamon",
+        "Gekomon",
+        "ShogunGekomon",
+        "Pukumon"
+      ]
+    },
+    {
+      "id": "palmon-marineangemon",
+      "name": "Palmon [MarineAngemon]",
+      "rank": "",
+      "rookie": "Palmon",
+      "forms": [
+        "Palmon",
+        "Togemon",
+        "Lillymon",
+        "MarineAngemon"
+      ]
+    },
+    {
+      "id": "palmon-apocalymon",
+      "name": "Palmon [Apocalymon]",
+      "rank": "",
+      "rookie": "Palmon",
+      "forms": [
+        "Palmon",
+        "Woodmon",
+        "Cherrymon",
+        "Puppetmon",
+        "AncientTroiamon",
+        "Apocalymon"
+      ]
+    },
+    {
+      "id": "patamon-pegasusmon",
+      "name": "Patamon [Pegasusmon]",
+      "rank": "",
+      "rookie": "Patamon",
+      "forms": [
+        "Patamon",
+        "Angemon",
+        "MagnaAngemon",
+        "Seraphimon",
+        "ShadowSeraphimon",
+        "Pegasusmon"
+      ]
+    },
+    {
+      "id": "pawnchessmon-black",
+      "name": "PawnChessmon (Black)",
+      "rank": "",
+      "rookie": "PawnChessmon (Black)",
+      "forms": [
+        "PawnChessmon (Black)",
+        "KnightChessmon (Black)",
+        "RookChessmon",
+        "QueenChessmon"
+      ]
+    },
+    {
+      "id": "psychemon",
+      "name": "Psychemon",
+      "rank": "",
+      "rookie": "Psychemon",
+      "forms": [
+        "Psychemon",
+        "Astamon",
+        "Belphemon (Sleep Mode)",
+        "Belphemon (Rage Mode)"
+      ]
+    },
+    {
+      "id": "renamon",
+      "name": "Renamon",
+      "rank": "",
+      "rookie": "Renamon",
+      "forms": [
+        "Renamon",
+        "Kyuubimon",
+        "Taomon",
+        "Sakuyamon",
+        "Kuzuhamon",
+        "Sakuyamon (Awaken)",
+        "Kuzuhamon - Miko Mode"
+      ]
+    },
+    {
+      "id": "ryuudamon",
+      "name": "Ryuudamon",
+      "rank": "",
+      "rookie": "Ryuudamon",
+      "forms": [
+        "Ryuudamon",
+        "GinRyuumon",
+        "HisyaRyuumon",
+        "OuRyuumon",
+        "Alphamon Ouryuken"
+      ]
+    },
+    {
+      "id": "salamon-xros-up-mervamon",
+      "name": "Salamon [Xros Up Mervamon]",
+      "rank": "",
+      "rookie": "Salamon",
+      "forms": [
+        "Salamon",
+        "BlackGatomon",
+        "LadyDevimon",
+        "Minervamon",
+        "Mervamon",
+        "Mastemon",
+        "Jet Mervamon",
+        "Xros Up Mervamon"
+      ]
+    },
+    {
+      "id": "salamon-nefertimon",
+      "name": "Salamon [Nefertimon]",
+      "rank": "",
+      "rookie": "Salamon",
+      "forms": [
+        "Salamon",
+        "Gatomon",
+        "Angewomon",
+        "MagnaDramon",
+        "Ophanimon",
+        "Ophanimon Falldown Mode",
+        "Mastemon",
+        "Ordinemon",
+        "Nefertimon"
+      ]
+    },
+    {
+      "id": "sharmamon",
+      "name": "Sharmamon",
+      "rank": "",
+      "rookie": "Sharmamon",
+      "forms": [
+        "Sharmamon",
+        "Apemon",
+        "Mammothmon",
+        "SkullMammothmon"
+      ]
+    },
+    {
+      "id": "starmon",
+      "name": "Starmon",
+      "rank": "",
+      "rookie": "Starmon",
+      "forms": [
+        "Starmon",
+        "SuperStarmon",
+        "Justimon",
+        "Fujinmon"
+      ]
+    },
+    {
+      "id": "swimmon",
+      "name": "Swimmon",
+      "rank": "",
+      "rookie": "Swimmon",
+      "forms": [
+        "Swimmon",
+        "Tylomon",
+        "Whamon",
+        "Neptunemon"
+      ]
+    },
+    {
+      "id": "syakomon",
+      "name": "Syakomon",
+      "rank": "",
+      "rookie": "Syakomon",
+      "forms": [
+        "Syakomon",
+        "Gesomon",
+        "MarineDevimon",
+        "Leviamon"
+      ]
+    },
+    {
+      "id": "tentomon",
+      "name": "Tentomon",
+      "rank": "",
+      "rookie": "Tentomon",
+      "forms": [
+        "Tentomon",
+        "Kabuterimon",
+        "MegaKabuterimon",
+        "HerculesKabuterimon",
+        "TyrantKabuterimon"
+      ]
+    },
+    {
+      "id": "tanemon",
+      "name": "Tanemon",
+      "rank": "",
+      "rookie": "Tanemon",
+      "forms": [
+        "Tanemon",
+        "Tanemon (Champion)",
+        "Tanemon (Ultimate)",
+        "Tanemon (Mega)"
+      ]
+    },
+    {
+      "id": "terriermon",
+      "name": "Terriermon",
+      "rank": "",
+      "rookie": "Terriermon",
+      "forms": [
+        "Terriermon",
+        "Gargomon",
+        "Rapidmon",
+        "MegaGargomon",
+        "BlackMegaGargomon",
+        "MegaGargomon (Awaken)"
+      ]
+    },
+    {
+      "id": "toyagumon-rookie",
+      "name": "ToyAgumon (Rookie)",
+      "rank": "",
+      "rookie": "ToyAgumon (Rookie)",
+      "forms": [
+        "ToyAgumon (Rookie)",
+        "ToyAgumon (Ultimate)"
+      ]
+    },
+    {
+      "id": "tsukaimon-daemon-beast-mode",
+      "name": "Tsukaimon [Daemon (Beast Mode)]",
+      "rank": "",
+      "rookie": "Tsukaimon",
+      "forms": [
+        "Tsukaimon",
+        "Devimon",
+        "NeoDevimon",
+        "Daemon",
+        "Daemon (Beast Mode)"
+      ]
+    },
+    {
+      "id": "tsukaimon-murmukusmon",
+      "name": "Tsukaimon [Murmukusmon]",
+      "rank": "",
+      "rookie": "Tsukaimon",
+      "forms": [
+        "Tsukaimon",
+        "Devimon",
+        "SkullSatamon",
+        "Murmukusmon"
+      ]
+    },
+    {
+      "id": "veemon-yasyamon",
+      "name": "Veemon [Yasyamon]",
+      "rank": "",
+      "rookie": "Veemon",
+      "forms": [
+        "Veemon",
+        "ExV-mon",
+        "Paildramon",
+        "Imperialdramon (Dragon Mode)",
+        "Imperialdramon (Fighter Mode)",
+        "Imperialdramon (Paladin Mode)",
+        "Raidramon",
+        "Yasyamon"
+      ]
+    },
+    {
+      "id": "veemon-gargoylemon",
+      "name": "Veemon [Gargoylemon]",
+      "rank": "",
+      "rookie": "Veemon",
+      "forms": [
+        "Veemon",
+        "Veedramon",
+        "AeroVeedramon",
+        "UlforceVeedramon",
+        "Flamedramon",
+        "Magnamon",
+        "Gargoylemon"
+      ]
+    },
+    {
+      "id": "wormmon-grandiskuwagamon",
+      "name": "Wormmon [GrandisKuwagamon]",
+      "rank": "",
+      "rookie": "Wormmon",
+      "forms": [
+        "Wormmon",
+        "Stingmon",
+        "JewelBeemon",
+        "GrandisKuwagamon"
+      ]
+    },
+    {
+      "id": "azulongmon-champion",
+      "name": "Azulongmon (Champion)",
+      "rank": "",
+      "rookie": "Azulongmon (Champion)",
+      "forms": [
+        "Azulongmon (Champion)",
+        "Azulongmon (Mega)",
+        "Fanglongmon",
+        "Fanglongmon (Shin)"
+      ]
+    },
+    {
+      "id": "baihumon-champion",
+      "name": "Baihumon (Champion)",
+      "rank": "",
+      "rookie": "Baihumon (Champion)",
+      "forms": [
+        "Baihumon (Champion)",
+        "Baihumon (Mega)",
+        "Fanglongmon",
+        "Fanglongmon (Shin)"
+      ]
+    },
+    {
+      "id": "ebonwumon-champion",
+      "name": "Ebonwumon (Champion)",
+      "rank": "",
+      "rookie": "Ebonwumon (Champion)",
+      "forms": [
+        "Ebonwumon (Champion)",
+        "Ebonwumon (Mega)",
+        "Fanglongmon",
+        "Fanglongmon (Shin)"
+      ]
+    },
+    {
+      "id": "zhuqiaomon-champion",
+      "name": "Zhuqiaomon (Champion)",
+      "rank": "",
+      "rookie": "Zhuqiaomon (Champion)",
+      "forms": [
+        "Zhuqiaomon (Champion)",
+        "Zhuqiaomon (Mega)",
+        "Fanglongmon",
+        "Fanglongmon (Shin)"
+      ]
+    },
+    {
+      "id": "blackagumon-omegamon-alter-b",
+      "name": "BlackAgumon [Omegamon Alter-B]",
+      "rank": "",
+      "rookie": "BlackAgumon",
+      "forms": [
+        "BlackAgumon",
+        "BlackGreymon",
+        "BlackMetalGreymon",
+        "BlitzGreymon",
+        "Omegamon Alter-S",
+        "Omegamon Alter-B"
+      ]
+    },
+    {
+      "id": "gabumon-omegamon-alter-b",
+      "name": "Gabumon [Omegamon Alter-B]",
+      "rank": "",
+      "rookie": "Gabumon",
+      "forms": [
+        "Gabumon",
+        "Garurumon",
+        "WereGarurumon",
+        "CresGarurumon",
+        "Omegamon Alter-S",
+        "Omegamon Alter-B"
+      ]
+    },
+    {
+      "id": "gizumon-at",
+      "name": "Gizumon AT",
+      "rank": "",
+      "rookie": "Gizumon AT",
+      "forms": [
+        "Gizumon AT",
+        "Gizumon XT"
+      ]
+    },
+    {
+      "id": "gomamon-jijimon",
+      "name": "Gomamon [Jijimon]",
+      "rank": "",
+      "rookie": "Gomamon",
+      "forms": [
+        "Gomamon",
+        "Mojyamon",
+        "Piximon",
+        "Jijimon"
+      ]
+    },
+    {
+      "id": "guilmon-megidramon",
+      "name": "Guilmon [Megidramon]",
+      "rank": "",
+      "rookie": "Guilmon",
+      "forms": [
+        "Guilmon",
+        "Growlmon",
+        "WarGrowlmon",
+        "ChaosGallantmon",
+        "Megidramon"
+      ]
+    },
+    {
+      "id": "impmon-xros-up-mervamon",
+      "name": "Impmon [Xros Up Mervamon]",
+      "rank": "",
+      "rookie": "Impmon",
+      "forms": [
+        "Impmon",
+        "IceDevimon",
+        "Baalmon",
+        "Beelzemon (C)",
+        "Xros Up Mervamon"
+      ]
+    },
+    {
+      "id": "kudamon",
+      "name": "Kudamon",
+      "rank": "",
+      "rookie": "Kudamon",
+      "forms": [
+        "Kudamon",
+        "Reppamon",
+        "Chirinmon",
+        "Kentaurosmon"
+      ]
+    },
+    {
+      "id": "lucemon",
+      "name": "Lucemon",
+      "rank": "",
+      "rookie": "Lucemon",
+      "forms": [
+        "Lucemon",
+        "Lucemon Falldown Mode",
+        "Lucemon (Satan Mode)",
+        "Lucemon (Satan Mode) (Shin)",
+        "Lucemon Larva"
+      ]
+    },
+    {
+      "id": "pawnchessmon-white",
+      "name": "PawnChessmon (White)",
+      "rank": "",
+      "rookie": "PawnChessmon (White)",
+      "forms": [
+        "PawnChessmon (White)",
+        "KnightChessmon (White)",
+        "BishopChessmon",
+        "KingChessmon"
+      ]
+    },
+    {
+      "id": "salamon-lilithmon",
+      "name": "Salamon [Lilithmon]",
+      "rank": "",
+      "rookie": "Salamon",
+      "forms": [
+        "Salamon",
+        "Mikemon",
+        "Persiamon",
+        "Lilithmon"
+      ]
+    },
+    {
+      "id": "tsukaimon-barbamon",
+      "name": "Tsukaimon [Barbamon]",
+      "rank": "",
+      "rookie": "Tsukaimon",
+      "forms": [
+        "Tsukaimon",
+        "Witchmon",
+        "Bastemon",
+        "Barbamon"
+      ]
+    },
+    {
+      "id": "armadillomon-digmon-armor",
+      "name": "Armadillomon [Digmon (Armor)]",
+      "rank": "",
+      "rookie": "Armadillomon",
+      "forms": [
+        "Armadillomon",
+        "Ankylomon",
+        "Shakkoumon",
+        "Vikemon",
+        "Shakkoumon (Jogress)",
+        "SlashAngemon",
+        "Digmon (Armor)"
+      ]
+    },
+    {
+      "id": "patamon-slashangemon",
+      "name": "Patamon [SlashAngemon]",
+      "rank": "",
+      "rookie": "Patamon",
+      "forms": [
+        "Patamon",
+        "Angemon",
+        "MagnaAngemon",
+        "Seraphimon",
+        "ShadowSeraphimon",
+        "Shakkoumon (Jogress)",
+        "SlashAngemon"
+      ]
+    },
+    {
+      "id": "hawkmon-shurimon",
+      "name": "Hawkmon [Shurimon]",
+      "rank": "",
+      "rookie": "Hawkmon",
+      "forms": [
+        "Hawkmon",
+        "Aquilamon",
+        "Silphymon",
+        "Phoenixmon",
+        "Valdurmon",
+        "Silphymon (Jogress)",
+        "Valkyrimon",
+        "Allomon",
+        "Shurimon"
+      ]
+    },
+    {
+      "id": "salamon-goatmon",
+      "name": "Salamon [Goatmon]",
+      "rank": "",
+      "rookie": "Salamon",
+      "forms": [
+        "Salamon",
+        "Gatomon",
+        "Angewomon",
+        "MagnaDramon",
+        "Ophanimon",
+        "Silphymon (Jogress)",
+        "Valkyrimon",
+        "Goatmon"
+      ]
+    },
+    {
+      "id": "veemon-imperialdramon-paladin-mode-jogress",
+      "name": "Veemon [Imperialdramon (Paladin Mode)(Jogress)]",
+      "rank": "",
+      "rookie": "Veemon",
+      "forms": [
+        "Veemon",
+        "ExV-mon",
+        "Paildramon (Jogress)",
+        "Imperialdramon (Dragon Mode)(Jogress)",
+        "Imperialdramon (Fighter Mode)(Jogress)",
+        "Imperialdramon (Paladin Mode)(Jogress)"
+      ]
+    },
+    {
+      "id": "wormmon-imperialdramon-paladin-mode-jogress",
+      "name": "Wormmon [Imperialdramon (Paladin Mode)(Jogress)]",
+      "rank": "",
+      "rookie": "Wormmon",
+      "forms": [
+        "Wormmon",
+        "Stingmon",
+        "Paildramon (Jogress)",
+        "Imperialdramon (Dragon Mode)(Jogress)",
+        "Imperialdramon (Fighter Mode)(Jogress)",
+        "Imperialdramon (Paladin Mode)(Jogress)"
+      ]
+    },
+    {
+      "id": "elecmon-duftmon",
+      "name": "Elecmon [Duftmon]",
+      "rank": "",
+      "rookie": "Elecmon",
+      "forms": [
+        "Elecmon",
+        "Leomon",
+        "GrapLeomon",
+        "Duftmon"
+      ]
+    },
+    {
+      "id": "raremon",
+      "name": "Raremon",
+      "rank": "",
+      "rookie": "Raremon",
+      "forms": [
+        "Raremon",
+        "Raremon"
+      ]
+    },
+    {
+      "id": "hackmon",
+      "name": "Hackmon",
+      "rank": "",
+      "rookie": "Hackmon",
+      "forms": [
+        "Hackmon",
+        "BaoHackmon",
+        "SaviorHackmon",
+        "Jesmon"
+      ]
+    },
+    {
+      "id": "palmon-rafflesimon",
+      "name": "Palmon [Rafflesimon]",
+      "rank": "",
+      "rookie": "Palmon",
+      "forms": [
+        "Palmon",
+        "Togemon",
+        "Lillymon",
+        "Rosemon (Original)",
+        "Rafflesimon"
+      ]
+    },
+    {
+      "id": "floramon",
+      "name": "Floramon",
+      "rank": "",
+      "rookie": "Floramon",
+      "forms": [
+        "Floramon",
+        "Vegiemon",
+        "Blossomon",
+        "Lotusmon",
+        "Rafflesimon"
+      ]
+    },
+    {
+      "id": "meicoomon",
+      "name": "Meicoomon",
+      "rank": "",
+      "rookie": "Meicoomon",
+      "forms": [
+        "Meicoomon",
+        "Meicrackmon: Vicious Mode",
+        "Raguelmon",
+        "Ordinemon"
+      ]
+    },
+    {
+      "id": "gizamon",
+      "name": "Gizamon",
+      "rank": "",
+      "rookie": "Gizamon",
+      "forms": [
+        "Gizamon",
+        "DarkTyrannomon",
+        "MetalTyrannomon",
+        "Machinedramon",
+        "RustTyrannomon"
+      ]
+    },
+    {
+      "id": "gammamon",
+      "name": "Gammamon",
+      "rank": "",
+      "rookie": "Gammamon",
+      "forms": [
+        "Gammamon",
+        "BetelGammamon",
+        "Canoweissmon",
+        "Siriusmon"
+      ]
+    },
+    {
+      "id": "jellymon",
+      "name": "Jellymon",
+      "rank": "",
+      "rookie": "Jellymon",
+      "forms": [
+        "Jellymon",
+        "Tesla Jellymon",
+        "Thetismon",
+        "Amphimon"
+      ]
+    },
+    {
+      "id": "angoramon",
+      "name": "Angoramon",
+      "rank": "",
+      "rookie": "Angoramon",
+      "forms": [
+        "Angoramon",
+        "SymbareAngoramon",
+        "Lamortmon",
+        "Diarbbitmon"
+      ]
+    },
+    {
+      "id": "ukkomon",
+      "name": "Ukkomon",
+      "rank": "",
+      "rookie": "Ukkomon",
+      "forms": [
+        "Ukkomon"
+      ]
+    },
+    {
+      "id": "ballistamon",
+      "name": "Ballistamon",
+      "rank": "",
+      "rookie": "Ballistamon",
+      "forms": [
+        "Ballistamon",
+        "Ballistamon (Mega)",
+        "Shoutmon X2",
+        "Shoutmon X3",
+        "Shoutmon X4",
+        "Shoutmon X5"
+      ]
+    },
+    {
+      "id": "dorulumon",
+      "name": "Dorulumon",
+      "rank": "",
+      "rookie": "Dorulumon",
+      "forms": [
+        "Dorulumon",
+        "Dorulumon (Mega)",
+        "Shoutmon X3",
+        "Shoutmon X4",
+        "Shoutmon X5"
+      ]
+    },
+    {
+      "id": "greymon-2010",
+      "name": "Greymon (2010)",
+      "rank": "",
+      "rookie": "Greymon (2010)",
+      "forms": [
+        "Greymon (2010)",
+        "Greymon (2010) (Mega)",
+        "MetalGreymon (C)",
+        "ZekeGreymon",
+        "Shoutmon DX",
+        "Shoutmon X7",
+        "Shoutmon X7 Superior Mode"
+      ]
+    },
+    {
+      "id": "mailbirdramon",
+      "name": "MailBirdramon",
+      "rank": "",
+      "rookie": "MailBirdramon",
+      "forms": [
+        "MailBirdramon",
+        "MailBirdramon (Mega)",
+        "MetalGreymon (C)",
+        "ZekeGreymon",
+        "Shoutmon DX",
+        "Shoutmon X7",
+        "Shoutmon X7 Superior Mode"
+      ]
+    },
+    {
+      "id": "shoutmon",
+      "name": "Shoutmon",
+      "rank": "",
+      "rookie": "Shoutmon",
+      "forms": [
+        "Shoutmon",
+        "OmegaShoutmon",
+        "Shoutmon (Mega)",
+        "Shoutmon X2",
+        "Shoutmon X3",
+        "Shoutmon X4",
+        "Shoutmon X5",
+        "Shoutmon DX",
+        "Shoutmon X7",
+        "Shoutmon X7 Superior Mode"
+      ]
+    },
+    {
+      "id": "starmons",
+      "name": "Starmons",
+      "rank": "",
+      "rookie": "Starmons",
+      "forms": [
+        "Starmons",
+        "Starmons (Mega)",
+        "Shoutmon X4",
+        "Shoutmon X5"
+      ]
+    },
+    {
+      "id": "sparrowmon",
+      "name": "Sparrowmon",
+      "rank": "",
+      "rookie": "Sparrowmon",
+      "forms": [
+        "Sparrowmon",
+        "Sparrowmon (Mega)",
+        "Shoutmon X5",
+        "Jet Mervamon"
+      ]
+    },
+    {
+      "id": "kaisergreymon",
+      "name": "KaiserGreymon",
+      "rank": "",
+      "rookie": "KaiserGreymon",
+      "forms": [
+        "KaiserGreymon",
+        "Susanoomon",
+        "Susanoomon (Shin)"
+      ]
+    },
+    {
+      "id": "agnimon",
+      "name": "Agnimon",
+      "rank": "",
+      "rookie": "Agnimon",
+      "forms": [
+        "Agnimon",
+        "Vritramon"
+      ]
+    },
+    {
+      "id": "arbormon",
+      "name": "Arbormon",
+      "rank": "",
+      "rookie": "Arbormon",
+      "forms": [
+        "Arbormon",
+        "Petaldramon"
+      ]
+    },
+    {
+      "id": "chakkumon",
+      "name": "Chakkumon",
+      "rank": "",
+      "rookie": "Chakkumon",
+      "forms": [
+        "Chakkumon",
+        "Blizzarmon"
+      ]
+    },
+    {
+      "id": "fairimon",
+      "name": "Fairimon",
+      "rank": "",
+      "rookie": "Fairimon",
+      "forms": [
+        "Fairimon",
+        "Shutsmon"
+      ]
+    },
+    {
+      "id": "grotmon",
+      "name": "Grotmon",
+      "rank": "",
+      "rookie": "Grotmon",
+      "forms": [
+        "Grotmon",
+        "Gigasmon"
+      ]
+    },
+    {
+      "id": "magnagarurumon",
+      "name": "MagnaGarurumon",
+      "rank": "",
+      "rookie": "MagnaGarurumon",
+      "forms": [
+        "MagnaGarurumon",
+        "Susanoomon",
+        "Susanoomon (Shin)"
+      ]
+    },
+    {
+      "id": "wolfmon",
+      "name": "Wolfmon",
+      "rank": "",
+      "rookie": "Wolfmon",
+      "forms": [
+        "Wolfmon",
+        "Garmmon"
+      ]
+    },
+    {
+      "id": "blitzmon",
+      "name": "Blitzmon",
+      "rank": "",
+      "rookie": "Blitzmon",
+      "forms": [
+        "Blitzmon",
+        "Bolgmon"
+      ]
+    },
+    {
+      "id": "loweemon",
+      "name": "Loweemon",
+      "rank": "",
+      "rookie": "Loweemon",
+      "forms": [
+        "Loweemon",
+        "JägerLöwemon"
+      ]
+    },
+    {
+      "id": "mercurymon",
+      "name": "Mercurymon",
+      "rank": "",
+      "rookie": "Mercurymon",
+      "forms": [
+        "Mercurymon",
+        "Sephirotmon"
+      ]
+    },
+    {
+      "id": "ranamon",
+      "name": "Ranamon",
+      "rank": "",
+      "rookie": "Ranamon",
+      "forms": [
+        "Ranamon",
+        "Calmaramon"
+      ]
+    },
+    {
+      "id": "gabumon-x",
+      "name": "Gabumon X",
+      "rank": "",
+      "rookie": "Gabumon X",
+      "forms": [
+        "Gabumon X",
+        "Garurumon X",
+        "WereGarurumon X",
+        "MetalGarurumon X",
+        "Omegamon X"
+      ]
+    },
+    {
+      "id": "agumon-x",
+      "name": "Agumon X",
+      "rank": "",
+      "rookie": "Agumon X",
+      "forms": [
+        "Agumon X",
+        "Greymon X",
+        "MetalGreymon X",
+        "WarGreymon X",
+        "Gaioumon",
+        "Omegamon X"
+      ]
+    },
+    {
+      "id": "ryudamon-x-antibody-system",
+      "name": "Ryudamon (X-Antibody System)",
+      "rank": "",
+      "rookie": "Ryudamon (X-Antibody System)",
+      "forms": [
+        "Ryudamon (X-Antibody System)",
+        "GinRyumon (X-Antibody System)",
+        "HisyaRyumon (X-Antibody System)",
+        "OuRyumon (X-Antibody System)",
+        "Alphamon Ouryuken (X-Antibody System)",
+        "Alphamon Ouryuken (Awaken)"
+      ]
+    },
+    {
+      "id": "dorumon-x-antibody-system-alphamon-ouryuken-awaken",
+      "name": "Dorumon (X-Antibody System) [Alphamon Ouryuken (Awaken)]",
+      "rank": "",
+      "rookie": "Dorumon (X-Antibody System)",
+      "forms": [
+        "Dorumon (X-Antibody System)",
+        "ReptileDramon (X-Antibody System)",
+        "Grademon (X-Antibody System)",
+        "Alphamon (X-Antibody System)",
+        "Alphamon Ouryuken (X-Antibody System)",
+        "Alphamon Ouryuken (Awaken)"
+      ]
+    },
+    {
+      "id": "dorumon-x-antibody-system-dexmon-x-antibody-system",
+      "name": "Dorumon (X-Antibody System) [Dexmon (X-Antibody System)]",
+      "rank": "",
+      "rookie": "Dorumon (X-Antibody System)",
+      "forms": [
+        "Dorumon (X-Antibody System)",
+        "DexDorugamon (X-Antibody System)",
+        "DexDoruGreymon (X-Antibody System)",
+        "DexDorugoramon (X-Antibody System)",
+        "Dexmon (X-Antibody System)"
+      ]
+    },
+    {
+      "id": "dorumon-x-antibody-system-dorugoramon-x-antibody-system",
+      "name": "Dorumon (X-Antibody System) [Dorugoramon (X-Antibody System)]",
+      "rank": "",
+      "rookie": "Dorumon (X-Antibody System)",
+      "forms": [
+        "Dorumon (X-Antibody System)",
+        "Dorugamon (X-Antibody System)",
+        "DoruGreymon (X-Antibody System)",
+        "Dorugoramon (X-Antibody System)"
+      ]
+    },
+    {
+      "id": "dracmon-x-antibody-system",
+      "name": "Dracmon (X-Antibody System)",
+      "rank": "",
+      "rookie": "Dracmon (X-Antibody System)",
+      "forms": [
+        "Dracmon (X-Antibody System)",
+        "Sangloupmon (X-Antibody System)",
+        "Matadormon (X-Antibody System)",
+        "GranDracmon (X-Antibody System)"
+      ]
+    },
+    {
+      "id": "fanbeemon-x-antibody-system",
+      "name": "FanBeemon (X-Antibody System)",
+      "rank": "",
+      "rookie": "FanBeemon (X-Antibody System)",
+      "forms": [
+        "FanBeemon (X-Antibody System)",
+        "Waspmon (X-Antibody System)",
+        "CannonBeemon (X-Antibody System)",
+        "TigerVespamon (X-Antibody System)"
+      ]
+    },
+    {
+      "id": "dinotigermon-x-antibody-system",
+      "name": "DinoTigermon (X-Antibody System)",
+      "rank": "",
+      "rookie": "DinoTigermon (X-Antibody System)",
+      "forms": [
+        "DinoTigermon (X-Antibody System)"
+      ]
+    },
+    {
+      "id": "guilmon-x",
+      "name": "Guilmon X",
+      "rank": "",
+      "rookie": "Guilmon X",
+      "forms": [
+        "Guilmon X",
+        "Growlmon X",
+        "WarGrowlmon X",
+        "Gallantmon X",
+        "MedievalGallantmon"
+      ]
+    },
+    {
+      "id": "magnamon-x",
+      "name": "Magnamon X",
+      "rank": "",
+      "rookie": "Magnamon X",
+      "forms": [
+        "Magnamon X"
+      ]
+    },
+    {
+      "id": "duftmon-x",
+      "name": "Duftmon X",
+      "rank": "",
+      "rookie": "Duftmon X",
+      "forms": [
+        "Duftmon X"
+      ]
+    },
+    {
+      "id": "gigaseadramon-x",
+      "name": "GigaSeadramon X",
+      "rank": "",
+      "rookie": "GigaSeadramon X",
+      "forms": [
+        "GigaSeadramon X"
+      ]
+    },
+    {
+      "id": "dynasmon-x",
+      "name": "Dynasmon X",
+      "rank": "",
+      "rookie": "Dynasmon X",
+      "forms": [
+        "Dynasmon X"
+      ]
+    },
+    {
+      "id": "ulforceveedramon-x",
+      "name": "UlforceVeedramon X",
+      "rank": "",
+      "rookie": "UlforceVeedramon X",
+      "forms": [
+        "UlforceVeedramon X"
+      ]
+    },
+    {
+      "id": "grandiskuwagamon-x-antibody-system",
+      "name": "GrandisKuwagamon (X-Antibody System)",
+      "rank": "",
+      "rookie": "GrandisKuwagamon (X-Antibody System)",
+      "forms": [
+        "GrandisKuwagamon (X-Antibody System)"
+      ]
+    },
+    {
+      "id": "jesmon-x",
+      "name": "Jesmon X",
+      "rank": "",
+      "rookie": "Jesmon X",
+      "forms": [
+        "Jesmon X"
+      ]
+    },
+    {
+      "id": "sleipmon-x",
+      "name": "Sleipmon X",
+      "rank": "",
+      "rookie": "Sleipmon X",
+      "forms": [
+        "Sleipmon X"
+      ]
+    },
+    {
+      "id": "beelzemon-x",
+      "name": "Beelzemon X",
+      "rank": "",
+      "rookie": "Beelzemon X",
+      "forms": [
+        "Beelzemon X"
+      ]
+    },
+    {
+      "id": "craniamon-x",
+      "name": "Craniamon X",
+      "rank": "",
+      "rookie": "Craniamon X",
+      "forms": [
+        "Craniamon X"
+      ]
+    },
+    {
+      "id": "megidramon-x",
+      "name": "Megidramon X",
+      "rank": "",
+      "rookie": "Megidramon X",
+      "forms": [
+        "Megidramon X"
+      ]
+    },
+    {
+      "id": "palmon-x",
+      "name": "Palmon X",
+      "rank": "",
+      "rookie": "Palmon X",
+      "forms": [
+        "Palmon X",
+        "Togemon X",
+        "Lillymon X",
+        "Rosemon X"
+      ]
+    },
+    {
+      "id": "lordknightmon-x",
+      "name": "LordKnightmon X",
+      "rank": "",
+      "rookie": "LordKnightmon X",
+      "forms": [
+        "LordKnightmon X"
+      ]
+    },
+    {
+      "id": "chaosdramon-x",
+      "name": "Chaosdramon X",
+      "rank": "",
+      "rookie": "Chaosdramon X",
+      "forms": [
+        "Chaosdramon X"
+      ]
+    },
+    {
+      "id": "minervamon-x",
+      "name": "Minervamon X",
+      "rank": "",
+      "rookie": "Minervamon X",
+      "forms": [
+        "Minervamon X"
+      ]
+    },
+    {
+      "id": "examon-x",
+      "name": "Examon X",
+      "rank": "",
+      "rookie": "Examon X",
+      "forms": [
+        "Examon X"
+      ]
+    },
+    {
+      "id": "lilithmon-x",
+      "name": "Lilithmon X",
+      "rank": "",
+      "rookie": "Lilithmon X",
+      "forms": [
+        "Lilithmon X"
+      ]
+    },
+    {
+      "id": "barbamon-x",
+      "name": "Barbamon X",
+      "rank": "",
+      "rookie": "Barbamon X",
+      "forms": [
+        "Barbamon X"
+      ]
+    },
+    {
+      "id": "demon-x",
+      "name": "Demon X",
+      "rank": "",
+      "rookie": "Demon X",
+      "forms": [
+        "Demon X"
+      ]
+    },
+    {
+      "id": "gankoomon-x",
+      "name": "Gankoomon X",
+      "rank": "",
+      "rookie": "Gankoomon X",
+      "forms": [
+        "Gankoomon X"
+      ]
+    },
+    {
+      "id": "apocalymon-psychic",
+      "name": "Apocalymon (Psychic)",
+      "rank": "",
+      "rookie": "Apocalymon (Psychic)",
+      "forms": [
+        "Apocalymon (Psychic)"
+      ]
+    },
+    {
+      "id": "armageddemon-conflation",
+      "name": "Armageddemon (Conflation)",
+      "rank": "",
+      "rookie": "Armageddemon (Conflation)",
+      "forms": [
+        "Armageddemon (Conflation)"
+      ]
+    },
+    {
+      "id": "ogudomon",
+      "name": "Ogudomon",
+      "rank": "",
+      "rookie": "Ogudomon",
+      "forms": [
+        "Ogudomon"
+      ]
+    },
+    {
+      "id": "agumon",
+      "name": "Agumon",
+      "rank": "",
+      "rookie": "Agumon",
+      "forms": [
+        "Agumon",
+        "GeoGreymon",
+        "RizeGreymon",
+        "ShineGreymon",
+        "ShineGreymon (Burst Mode)"
+      ]
+    },
+    {
+      "id": "gaomon",
+      "name": "Gaomon",
+      "rank": "",
+      "rookie": "Gaomon",
+      "forms": [
+        "Gaomon",
+        "Gaogamon",
+        "MachGaogamon",
+        "MirageGaogamon",
+        "MirageGaogamon (Burst Mode)"
+      ]
+    },
+    {
+      "id": "lalamon",
+      "name": "Lalamon",
+      "rank": "",
+      "rookie": "Lalamon",
+      "forms": [
+        "Lalamon",
+        "SunFlowmon",
+        "Lilamon",
+        "Rosemon",
+        "Rosemon (Burst Mode)"
+      ]
+    },
+    {
+      "id": "falcomon",
+      "name": "Falcomon",
+      "rank": "",
+      "rookie": "Falcomon",
+      "forms": [
+        "Falcomon",
+        "Peckmon",
+        "Crowmon",
+        "Ravemon",
+        "Ravemon (Burst Mode)"
+      ]
+    }
+  ],
+  "packs": [
+    {
+      "id": "impmon-beelzemon",
+      "name": "Impmon [Beelzemon Blast Mode]",
+      "egg": "impmon-beelzemon-blast-mode-awaken",
+      "hard": false,
+      "members": [
+        {
+          "line": "impmon-beelzemon-blast-mode-awaken",
+          "count": 6,
+          "name": "Impmon → Beelzemon (Blast Mode)"
+        }
+      ],
+      "brackets": [
+        {
+          "type": "obtidos",
+          "need": 6,
+          "stat": "AT",
+          "value": 30,
+          "unit": ""
+        },
+        {
+          "type": "nivel",
+          "need": 660,
+          "stat": "Dano hab. Escuridão",
+          "value": 1,
+          "unit": "%"
+        },
+        {
+          "type": "transcendidos",
+          "need": 6,
+          "stat": "CT",
+          "value": 30,
+          "unit": ""
+        },
+        {
+          "type": "nivel",
+          "need": 840,
+          "stat": "HT",
+          "value": 50,
+          "unit": ""
+        }
+      ]
+    },
+    {
+      "id": "impmon-mervamon",
+      "name": "Impmon [Xros Up Mervamon]",
+      "egg": "impmon-xros-up-mervamon",
+      "hard": false,
+      "members": [
+        {
+          "line": "impmon-xros-up-mervamon",
+          "count": 6,
+          "name": "Impmon → Xros Up Mervamon"
+        }
+      ],
+      "brackets": [
+        {
+          "type": "obtidos",
+          "need": 6,
+          "stat": "DE",
+          "value": 30,
+          "unit": ""
+        },
+        {
+          "type": "nivel",
+          "need": 720,
+          "stat": "CT",
+          "value": 30,
+          "unit": ""
+        },
+        {
+          "type": "transcendidos",
+          "need": 6,
+          "stat": "CT",
+          "value": 50,
+          "unit": ""
+        },
+        {
+          "type": "nivel",
+          "need": 900,
+          "stat": "Dano hab. Gelo",
+          "value": 1,
+          "unit": "%"
+        }
+      ]
+    }
+  ]
+}
